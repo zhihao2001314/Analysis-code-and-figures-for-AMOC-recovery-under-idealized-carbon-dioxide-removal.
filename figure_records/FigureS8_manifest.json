@@ -1,0 +1,113 @@
+{
+  "panel_count": 1,
+  "model_line_count": 9,
+  "figure_size_inches": [
+    9.4,
+    5.8
+  ],
+  "dpi": 450,
+  "overall_title": null,
+  "artist_records": [
+    {
+      "model": "ACCESS-ESM1-5",
+      "line_style": "-",
+      "color": "#AA4499",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "1d089fa1c28e070800119c13fc935d5025e9acd0639d8c4cbe0b7cdee31ebf9b"
+    },
+    {
+      "model": "CanESM5",
+      "line_style": "-",
+      "color": "#117733",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "6b8d4329b7f2f98a345ff4ce517b696269400998824c01985a874622068b55f1"
+    },
+    {
+      "model": "CESM2",
+      "line_style": "-",
+      "color": "#CC6677",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "d4df734489896f40873ec355f95b07d83558793ebd921e7d609ea071a2d0d760"
+    },
+    {
+      "model": "CNRM-ESM2-1",
+      "line_style": "-",
+      "color": "#332288",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "f7392ffe06ba8d812c9c11f02527357d0aeb5faad00605e96f756542f27add7a"
+    },
+    {
+      "model": "GFDL-ESM4",
+      "line_style": "-",
+      "color": "#44AA99",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "3a851156787dda55ae934deb1c10b27b315679d2799866b49742af2018da8caf"
+    },
+    {
+      "model": "MIROC-ES2L",
+      "line_style": "-",
+      "color": "#88CCEE",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "83f7ad5e01796a6dbf648fe76ab9b4086230db310572caefaf0cd64e44e33f93"
+    },
+    {
+      "model": "NorESM2-LM",
+      "line_style": "-",
+      "color": "#882255",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "6d17955a3fb59c0dd2258e929c61acc387fa292cbaad0ba1ce5e6f0b48004b04"
+    },
+    {
+      "model": "UKESM1-0-LL",
+      "line_style": "-",
+      "color": "#999933",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "033c2ffe405301da90551018e3c9d3f8dd2f5e1c8ea094ec0ed7a2f5075fc6f5"
+    },
+    {
+      "model": "CAS-ESM2-0",
+      "line_style": "-",
+      "color": "#DDCC77",
+      "points": 280,
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "095b4bc640b1b6eabbacf4090f8913e95c07e8b6491f82208099faa989976c85"
+    }
+  ],
+  "legend_labels": [
+    "ACCESS-ESM1-5",
+    "CanESM5",
+    "CESM2",
+    "CNRM-ESM2-1",
+    "GFDL-ESM4",
+    "MIROC-ES2L",
+    "NorESM2-LM",
+    "UKESM1-0-LL",
+    "CAS-ESM2-0"
+  ],
+  "caption": "Global-mean near-surface air-temperature anomalies for nine models over experiment years1–280, relative to each model mean over years1–10. Solid coloured lines show11-year centred running means, computed continuously across the forcing reversal, using at least6 years at the two experiment endpoints. Annual global means use native atmospheric-grid area weights and CF month-duration weights. The vertical dotted line marks the transition from increasing to decreasing CO2 after year140. One ensemble member is used for each model. No multimodel mean or significance inference is shown.",
+  "reference": "Each model unsmoothed experiment years1–10 mean; anomalies in degreesC.",
+  "smoothing": "Continuous11year centred means across280years, min6 at experiment endpoints; no filling or offset adjustment.",
+  "source_files": [
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n17_nine_model_global_tas_series\\global_annual_tas.csv",
+      "sha256": "6cd066c08f3b86a15ad2b9f42688424b4ec506a2805e8114cddac25e2f10db03"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n17_nine_model_global_tas_series\\metadata.json",
+      "sha256": "d0e9f54f2d31d0fc3a5823d8f9d8bf52a63c66c2399080e9153d30aab5c93766"
+    }
+  ],
+  "exports": [
+    "F:\\sea\\Antic sea ice constraint\\figure\\s03_tem\\n18_nine_model_global_tas_series\\nine_model_global_tas_280years.png",
+    "F:\\sea\\Antic sea ice constraint\\figure\\s03_tem\\n18_nine_model_global_tas_series\\nine_model_global_tas_280years.pdf",
+    "F:\\sea\\Antic sea ice constraint\\figure\\s03_tem\\n18_nine_model_global_tas_series\\nine_model_global_tas_280years.svg"
+  ]
+}

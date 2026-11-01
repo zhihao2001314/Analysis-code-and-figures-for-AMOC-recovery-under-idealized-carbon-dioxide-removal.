@@ -1,0 +1,257 @@
+{
+  "exports": [
+    {
+      "quantity": "initial",
+      "panels": [
+        {
+          "panel": "a",
+          "model": "ACCESS-ESM1-5",
+          "field_sha256": "69f72b0ed5f75a0c8cd5e747fca373ccf4562fd55088ed22ced474f9acbed77a"
+        },
+        {
+          "panel": "b",
+          "model": "CanESM5",
+          "field_sha256": "8d35efc1578e879974dc8fa1a82fac695944f68b81d1a5fa94310b3b96e047b0"
+        },
+        {
+          "panel": "c",
+          "model": "CESM2",
+          "field_sha256": "13e604e4ec8f522709a193c2a8e04387968a5a5073a0489b5827f4656dd3cb44"
+        },
+        {
+          "panel": "d",
+          "model": "CNRM-ESM2-1",
+          "field_sha256": "8390916a962457ec15940039d93260cf00464256c1eb175b8254ce4dce7289c8"
+        },
+        {
+          "panel": "e",
+          "model": "GFDL-ESM4",
+          "field_sha256": "8c50610a033a45716b236a4ef31a64e1c6f9f707274acd87a70737121ffd8060"
+        },
+        {
+          "panel": "f",
+          "model": "NorESM2-LM",
+          "field_sha256": "5397b9760ee6d67bd241d91011ef3a4371c0a1e0ac4234f8c09cc70c49f198d3"
+        },
+        {
+          "panel": "g",
+          "model": "UKESM1-0-LL",
+          "field_sha256": "f3a68a3d48eb9e1748ea6e9f41c7299e5460609bd1272a3284ae0effaea24160"
+        }
+      ],
+      "figure_size_inches": [
+        15.2,
+        8.0
+      ],
+      "dpi": 400,
+      "paths": [
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_initial_derived_minus_mlotst.png",
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_initial_derived_minus_mlotst.pdf",
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_initial_derived_minus_mlotst.svg"
+      ],
+      "caption": "Differences in initial March MLD between temperature-salinity-derived mixed-layer depth and native CMIP6 mlotst for seven models. Shading is temperature-salinity diagnostics minus mlotst, in metres. Both methods use identical ten-March samples, ensemble members, and paired native-grid support. GFDL-ESM4 initial samples are years6-15. Initial and final differences compare absolute MLD climatologies; response differences compare the two late-minus-initial fields. For response differences, positive values mean a more positive MLD response in the derived product, not necessarily absolute deepening. Data are directly subtracted on the existing common0.25degree display grid, with no new interpolation or smoothing. The grid spacing is for display, not model resolution. Grey areas represent land or missing paired support. Colourbar extensions retain differences beyond1000m; no significance inference is added. The colormap, levels and ticks match Figure2 exactly."
+    },
+    {
+      "quantity": "late",
+      "panels": [
+        {
+          "panel": "a",
+          "model": "ACCESS-ESM1-5",
+          "field_sha256": "64f718f47c8a4811ac797e9061af1d2025fd42f8b0f986d58d5890e43670c031"
+        },
+        {
+          "panel": "b",
+          "model": "CanESM5",
+          "field_sha256": "e49dc86050ae588467024b282fc80c3e9e0c62dd41c30a5fd1263e160fab3454"
+        },
+        {
+          "panel": "c",
+          "model": "CESM2",
+          "field_sha256": "005cb01e04a1a960ab96aa9e7856616488858389fbc76b74bcb99d21da1ffa2d"
+        },
+        {
+          "panel": "d",
+          "model": "CNRM-ESM2-1",
+          "field_sha256": "cbd33555c7c0f403781cbb177c5968c2b04573a9440a0a263daa1fcb007bacb3"
+        },
+        {
+          "panel": "e",
+          "model": "GFDL-ESM4",
+          "field_sha256": "797e5306802340777bd38acfecc5992ec9fbdeb7616c9df3c7de3adfa67d0630"
+        },
+        {
+          "panel": "f",
+          "model": "NorESM2-LM",
+          "field_sha256": "08d0c706deb3d2492735b40758acae26df9fe2cf65b4ea7293ad45c7ccee8802"
+        },
+        {
+          "panel": "g",
+          "model": "UKESM1-0-LL",
+          "field_sha256": "fe42bfe493a81c8bb21b75e0cee46caf6434fd759b02878e751e87e771362036"
+        }
+      ],
+      "figure_size_inches": [
+        15.2,
+        8.0
+      ],
+      "dpi": 400,
+      "paths": [
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_late_derived_minus_mlotst.png",
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_late_derived_minus_mlotst.pdf",
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_late_derived_minus_mlotst.svg"
+      ],
+      "caption": "Differences in final March MLD between temperature-salinity-derived mixed-layer depth and native CMIP6 mlotst for seven models. Shading is temperature-salinity diagnostics minus mlotst, in metres. Both methods use identical ten-March samples, ensemble members, and paired native-grid support. GFDL-ESM4 initial samples are years6-15. Initial and final differences compare absolute MLD climatologies; response differences compare the two late-minus-initial fields. For response differences, positive values mean a more positive MLD response in the derived product, not necessarily absolute deepening. Data are directly subtracted on the existing common0.25degree display grid, with no new interpolation or smoothing. The grid spacing is for display, not model resolution. Grey areas represent land or missing paired support. Colourbar extensions retain differences beyond1000m; no significance inference is added. The colormap, levels and ticks match Figure2 exactly."
+    },
+    {
+      "quantity": "change",
+      "panels": [
+        {
+          "panel": "a",
+          "model": "ACCESS-ESM1-5",
+          "field_sha256": "522f75aa6711e8e6c49c91ff8e1b53a4b828c18caf7f6c41a67ddc2c1fa399f7"
+        },
+        {
+          "panel": "b",
+          "model": "CanESM5",
+          "field_sha256": "e13a3d02ab88f82cae0464087fe623cf06917ffb9f619fe5e0a94dfa466edec5"
+        },
+        {
+          "panel": "c",
+          "model": "CESM2",
+          "field_sha256": "1f34c6213cda6d390d4d3e65224bbc68dc7668470c6ec0e12f2e7705947af63a"
+        },
+        {
+          "panel": "d",
+          "model": "CNRM-ESM2-1",
+          "field_sha256": "7dc2d3a5e5b0d0c138b275a35eda196cb97d49c87ac8fb3a99fff947f72e3a49"
+        },
+        {
+          "panel": "e",
+          "model": "GFDL-ESM4",
+          "field_sha256": "ef2a6cbff78fc0b13da57674bcffe30f596fa2000650e0cb69c1595f3acec7ec"
+        },
+        {
+          "panel": "f",
+          "model": "NorESM2-LM",
+          "field_sha256": "690e8436a5467b12d03b163f226488371bf5428fb03af9af1c1264b2b78dce72"
+        },
+        {
+          "panel": "g",
+          "model": "UKESM1-0-LL",
+          "field_sha256": "fddda948fb3aff7f3423c67d7e526119eb1fe8d73cc4f5f710344790aba4e0e8"
+        }
+      ],
+      "figure_size_inches": [
+        15.2,
+        8.0
+      ],
+      "dpi": 400,
+      "paths": [
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_change_derived_minus_mlotst.png",
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_change_derived_minus_mlotst.pdf",
+        "F:\\sea\\Antic sea ice constraint\\figure\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n096_mld_method_difference_patterns\\march_mld_change_derived_minus_mlotst.svg"
+      ],
+      "caption": "Differences in final-minus-initial March MLD response between temperature-salinity-derived mixed-layer depth and native CMIP6 mlotst for seven models. Shading is temperature-salinity diagnostics minus mlotst, in metres. Both methods use identical ten-March samples, ensemble members, and paired native-grid support. GFDL-ESM4 initial samples are years6-15. Initial and final differences compare absolute MLD climatologies; response differences compare the two late-minus-initial fields. For response differences, positive values mean a more positive MLD response in the derived product, not necessarily absolute deepening. Data are directly subtracted on the existing common0.25degree display grid, with no new interpolation or smoothing. The grid spacing is for display, not model resolution. Grey areas represent land or missing paired support. Colourbar extensions retain differences beyond1000m; no significance inference is added. The colormap, levels and ticks match Figure2 exactly."
+    }
+  ],
+  "models": [
+    "ACCESS-ESM1-5",
+    "CanESM5",
+    "CESM2",
+    "CNRM-ESM2-1",
+    "GFDL-ESM4",
+    "NorESM2-LM",
+    "UKESM1-0-LL"
+  ],
+  "panel_count_per_figure": 7,
+  "overall_title": null,
+  "color_limits_m": [
+    -1000.0,
+    1000.0
+  ],
+  "color_ticks_m": [
+    -1000.0,
+    -500.0,
+    0.0,
+    500.0,
+    1000.0
+  ],
+  "color_levels_m": [
+    -1000.0,
+    -950.0,
+    -900.0,
+    -850.0,
+    -800.0,
+    -750.0,
+    -700.0,
+    -650.0,
+    -600.0,
+    -550.0,
+    -500.0,
+    -450.0,
+    -400.0,
+    -350.0,
+    -300.0,
+    -250.0,
+    -200.0,
+    -150.0,
+    -100.0,
+    -50.0,
+    0.0,
+    50.0,
+    100.0,
+    150.0,
+    200.0,
+    250.0,
+    300.0,
+    350.0,
+    400.0,
+    450.0,
+    500.0,
+    550.0,
+    600.0,
+    650.0,
+    700.0,
+    750.0,
+    800.0,
+    850.0,
+    900.0,
+    950.0,
+    1000.0
+  ],
+  "palette_anchors": [
+    "#145D9E",
+    "#347FB5",
+    "#70A6CA",
+    "#B6D0DF",
+    "#F5F3EF",
+    "#ECC8B4",
+    "#DF936E",
+    "#CE5144",
+    "#B60026"
+  ],
+  "normalization": "Same BoundaryNorm and256-colour LinearSegmentedColormap as Figure2.",
+  "difference_sign": "Temperature-salinity-derived minus native mlotst",
+  "source_files": [
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n095_mld_method_difference_patterns\\mld_method_difference_patterns.npz",
+      "sha256": "ae6a360ac36d8be50345691501900564dffe7b983440bcce2fc9cdccfc01e184"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n095_mld_method_difference_patterns\\metadata.json",
+      "sha256": "6ecf6714bf789f9124e3443c9226d4c88afae573c647775fb6a41165479c820d"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n095_mld_method_difference_patterns\\land_50m.geojson",
+      "sha256": "c96da7384e4480895886f1171ea3d275327c5a64307fe656b8b8de23d2fbf660"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p24_mld_method_comparison\\n095_mld_method_difference_patterns\\coastline_50m.geojson",
+      "sha256": "19647d8ba962c916bf0dd031f6e0aca6b4b1b45f59a09298fe78680313204321"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\grouped_mld_sic_fields.npz",
+      "sha256": "74642f9b02df378708a725e8f4f7bef8b55469ee5cc6ae570c62559d4a9de88c"
+    }
+  ]
+}

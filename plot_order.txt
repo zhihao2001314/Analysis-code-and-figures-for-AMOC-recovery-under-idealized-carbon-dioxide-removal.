@@ -1,0 +1,10 @@
+python plot/s01_amoc/n80_seven_panel_hysteresis_40n.py
+python plot/S02_sia/s02_arctic_region/n094_compact_regional_hydrography.py
+python plot/s05_atmosphere/p07_toa_energy_balance/n19_five_model_figure3.py
+python plot/s05_atmosphere/p05_amoc_recovery_composites/n82_six_model_circulation_net_precipitation.py
+python plot/s01_amoc/n78_seven_panel_hysteresis.py
+python plot/s03_tem/n20_arctic_partition_tas_ice.py
+python plot/S02_sia/s02_arctic_region/n096_mld_method_difference_patterns.py
+python plot/s01_amoc/n02_amocdeta9model.py
+python plot/s05_atmosphere/p05_amoc_recovery_composites/n87_three_by_three_hydrology.py
+python plot/s03_tem/n18_nine_model_global_tas_series.py

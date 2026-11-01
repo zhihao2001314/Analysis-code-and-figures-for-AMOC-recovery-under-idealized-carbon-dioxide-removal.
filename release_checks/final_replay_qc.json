@@ -1,0 +1,189 @@
+{
+  "all_12_figures_replayed": true,
+  "checks": [
+    {
+      "figure": "Figure1",
+      "reference_size": [
+        4320,
+        5670
+      ],
+      "replay_size": [
+        4320,
+        5670
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "artist_records",
+        "model_arrow_records",
+        "forcing_display"
+      ]
+    },
+    {
+      "figure": "Figure2",
+      "reference_size": [
+        5130,
+        4770
+      ],
+      "replay_size": [
+        5130,
+        4770
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "artist_records",
+        "map_records"
+      ]
+    },
+    {
+      "figure": "Figure3",
+      "reference_size": [
+        5670,
+        2925
+      ],
+      "replay_size": [
+        5670,
+        2925
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "artist_records"
+      ]
+    },
+    {
+      "figure": "Figure4",
+      "reference_size": [
+        4680,
+        4320
+      ],
+      "replay_size": [
+        4680,
+        4320
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "artist_records"
+      ]
+    },
+    {
+      "figure": "FigureS1",
+      "reference_size": [
+        4320,
+        5670
+      ],
+      "replay_size": [
+        4320,
+        5670
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "artist_records",
+        "model_arrow_records",
+        "forcing_display"
+      ]
+    },
+    {
+      "figure": "FigureS2",
+      "reference_size": [
+        4680,
+        5040
+      ],
+      "replay_size": [
+        4680,
+        5040
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "records"
+      ]
+    },
+    {
+      "figure": "FigureS3",
+      "reference_size": [
+        6080,
+        3200
+      ],
+      "replay_size": [
+        6080,
+        3200
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "export_panels"
+      ]
+    },
+    {
+      "figure": "FigureS4",
+      "reference_size": [
+        6080,
+        3200
+      ],
+      "replay_size": [
+        6080,
+        3200
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "export_panels"
+      ]
+    },
+    {
+      "figure": "FigureS5",
+      "reference_size": [
+        6080,
+        3200
+      ],
+      "replay_size": [
+        6080,
+        3200
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "export_panels"
+      ]
+    },
+    {
+      "figure": "FigureS6",
+      "reference_size": [
+        9525,
+        6883
+      ],
+      "replay_size": [
+        9525,
+        6883
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": []
+    },
+    {
+      "figure": "FigureS7",
+      "reference_size": [
+        5670,
+        3960
+      ],
+      "replay_size": [
+        5670,
+        3960
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "records"
+      ]
+    },
+    {
+      "figure": "FigureS8",
+      "reference_size": [
+        4230,
+        2610
+      ],
+      "replay_size": [
+        4230,
+        2610
+      ],
+      "pixel_identical": true,
+      "scientific_records_verified": [
+        "artist_records"
+      ]
+    }
+  ],
+  "all_scientific_manifest_records_match": true
+}

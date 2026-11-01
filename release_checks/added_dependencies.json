@@ -1,0 +1,10 @@
+[
+  {
+    "package_path": "output/s05_atmosphere/p05_amoc_recovery_composites/check_red_white_blue_style/red_white_blue_rgb.npy",
+    "sha256": "886a1ffd9d8edf70b7bd6f22aa07259d357a2021b800fdc88496f9fbf6d8f26b"
+  },
+  {
+    "package_path": "output/s05_atmosphere/p05_amoc_recovery_composites/n86_three_by_three_hydrology/independent_qc.json",
+    "sha256": "331e2bc3019d13f9fdcfab3ee48166916dd80e68f573fe03334fcbf6158a38c8"
+  }
+]

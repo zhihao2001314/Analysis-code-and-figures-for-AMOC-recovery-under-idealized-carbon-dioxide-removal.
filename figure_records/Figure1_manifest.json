@@ -1,0 +1,619 @@
+{
+  "panel_count": 7,
+  "figure_size_inches": [
+    9.6,
+    12.6
+  ],
+  "dpi": 450,
+  "overall_title": null,
+  "overview_target_latitude_degN": 40.0,
+  "pathway_target_latitude_degN": 40.0,
+  "group_names": [
+    "Recovery with small A",
+    "Recovery with large A",
+    "Non-recovery"
+  ],
+  "model_counts": [
+    2,
+    3,
+    4
+  ],
+  "model_color_policy": "Same panel-a model color throughout the complete trajectory; solid paths, no phase color legend.",
+  "artist_records": [
+    {
+      "panel": "a",
+      "model": "ACCESS-ESM1-5",
+      "color": "#AA4499",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "665520d8d87579f9648017eae4656c49cc9194bea4b010bd31291e970bffd4f6"
+    },
+    {
+      "panel": "a",
+      "model": "CanESM5",
+      "color": "#117733",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "024d1ca2b02b8038090cb17f576ce9170223659630b80a00f51e4a78bf7d98d3"
+    },
+    {
+      "panel": "a",
+      "model": "CESM2",
+      "color": "#CC6677",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "fd54cf90365691ffe6dc9b2e327fbabc5786323b4a3807352c18c4d901b784af"
+    },
+    {
+      "panel": "a",
+      "model": "CNRM-ESM2-1",
+      "color": "#332288",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "5dada375c7c55c372a75cf28cfa3615dcce9f7ab1d4b25b038ad725ffd0316af"
+    },
+    {
+      "panel": "a",
+      "model": "GFDL-ESM4",
+      "color": "#44AA99",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "243d9eff5c6591fdbba653302ab4cc27549bf734e11cb106fba2b880a57cffac"
+    },
+    {
+      "panel": "a",
+      "model": "MIROC-ES2L",
+      "color": "#88CCEE",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "4549d5ff48fa230ce564a5dc15c46484d51493919b3802d862de53023eb1f737"
+    },
+    {
+      "panel": "a",
+      "model": "NorESM2-LM",
+      "color": "#882255",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "7b2387d4f0b4464f74ea97fd546da2499fb4430d5565f9fced868a1ea09f2cee"
+    },
+    {
+      "panel": "a",
+      "model": "UKESM1-0-LL",
+      "color": "#999933",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "a6c5f120071860ae8a50f95a802091fae2c58128b510c39f1acd2c3afd339bad"
+    },
+    {
+      "panel": "a",
+      "model": "CAS-ESM2-0",
+      "color": "#DDCC77",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "4f0c8701cb60e4e6d9eda1d9b7238f090918b1c0cf4b4be9c91700f3ad6bab60"
+    },
+    {
+      "panel": "a",
+      "model": "mmm",
+      "color": "#27323A",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "49c52362bee88056a86ac10178692bd50988cab45bc92d07729f278fd21d2b3c"
+    },
+    {
+      "panel": "b",
+      "phase": "increase",
+      "color": "#364F60",
+      "x_sha256": "97846f3777606da5e9d5bb0f33cef7acbdf70c98c0704de1bbb37b35b07359f2",
+      "y_sha256": "0a7fe1abe49da71b148f5d4a281fab64563462554ddb445f24390afb94092572"
+    },
+    {
+      "panel": "b",
+      "phase": "decrease",
+      "color": "#364F60",
+      "x_sha256": "97846f3777606da5e9d5bb0f33cef7acbdf70c98c0704de1bbb37b35b07359f2",
+      "y_sha256": "8057a216586989a1072fc0b96f90e17f48fbb806d4d67566120bb32be00fd02e"
+    },
+    {
+      "panel": "c",
+      "model": "ACCESS-ESM1-5",
+      "color": "#AA4499",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "699db451c77da70b3ca41cd15e415325b8230deb6e2d322e185fef959bed3eaf"
+    },
+    {
+      "panel": "c",
+      "model": "CAS-ESM2-0",
+      "color": "#DDCC77",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "a94653cf471569e283549de8057e61f38327a305fcb577f814412ad36ef0ede9"
+    },
+    {
+      "panel": "d",
+      "phase": "increase",
+      "color": "#364F60",
+      "x_sha256": "97846f3777606da5e9d5bb0f33cef7acbdf70c98c0704de1bbb37b35b07359f2",
+      "y_sha256": "a33d069172e64062257be329e922018e06321ec84dc7057b854222cf832d5e5f"
+    },
+    {
+      "panel": "d",
+      "phase": "decrease",
+      "color": "#364F60",
+      "x_sha256": "97846f3777606da5e9d5bb0f33cef7acbdf70c98c0704de1bbb37b35b07359f2",
+      "y_sha256": "fc4058fe4300c3dd4240db65dbb2357a388e3bdeaa58587c1d18ec5428a4d2a7"
+    },
+    {
+      "panel": "e",
+      "model": "GFDL-ESM4",
+      "color": "#44AA99",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "a0abbb2fc6f2e43a2c516ec6eb2e2d4aa8996b0ab9333f9c4918f13add6d06c4"
+    },
+    {
+      "panel": "e",
+      "model": "NorESM2-LM",
+      "color": "#882255",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "27757f2394b587f9b8a01fee50ede814974135146b7f64506fcaa368fb5634ad"
+    },
+    {
+      "panel": "e",
+      "model": "CanESM5",
+      "color": "#117733",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "9ef5488d66ce35ad3cc5b6e55f4544a20060e3ed904048435b2b46ab8c5795c8"
+    },
+    {
+      "panel": "f",
+      "phase": "increase",
+      "color": "#364F60",
+      "x_sha256": "97846f3777606da5e9d5bb0f33cef7acbdf70c98c0704de1bbb37b35b07359f2",
+      "y_sha256": "2d9f5b532925c3b89a79e925e429f3b5bd801eebf3bb4914d6e2e0bc67416a18"
+    },
+    {
+      "panel": "f",
+      "phase": "decrease",
+      "color": "#364F60",
+      "x_sha256": "97846f3777606da5e9d5bb0f33cef7acbdf70c98c0704de1bbb37b35b07359f2",
+      "y_sha256": "9d56f5699582e3c3ee62f6189cf7fd6bafb28da22350bce08e628a0c400620fb"
+    },
+    {
+      "panel": "g",
+      "model": "CESM2",
+      "color": "#CC6677",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "11997df1b21f6839fae6b329a44f7a2cd06790305f88899fc1d2441d19c876c9"
+    },
+    {
+      "panel": "g",
+      "model": "CNRM-ESM2-1",
+      "color": "#332288",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "ba3eed8e29b9985df1c2535540ea51d180d680fab0a1231be449257a2be02b54"
+    },
+    {
+      "panel": "g",
+      "model": "UKESM1-0-LL",
+      "color": "#999933",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "b4fe6c6bbaa950253310e89a1e1d8f05d5ba352949677672b16802136676453a"
+    },
+    {
+      "panel": "g",
+      "model": "MIROC-ES2L",
+      "color": "#88CCEE",
+      "x_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+      "y_sha256": "9eb90fa119f279ea2e4e031b574dae5f944c9a6aca20bf90c0ca11b0bb496fd3"
+    }
+  ],
+  "model_arrow_records": [
+    {
+      "panel": "c",
+      "model": "ACCESS-ESM1-5",
+      "color": "#AA4499",
+      "start": [
+        543.59663918,
+        0.8636918593659952
+      ],
+      "end": [
+        600.46887494,
+        0.7901256154056
+      ]
+    },
+    {
+      "panel": "c",
+      "model": "ACCESS-ESM1-5",
+      "color": "#AA4499",
+      "start": [
+        571.32553098,
+        0.8762724205813204
+      ],
+      "end": [
+        517.21355008,
+        0.7983646810058538
+      ]
+    },
+    {
+      "panel": "c",
+      "model": "CAS-ESM2-0",
+      "color": "#DDCC77",
+      "start": [
+        543.59663918,
+        0.897385746935455
+      ],
+      "end": [
+        600.46887494,
+        0.8747081592703503
+      ]
+    },
+    {
+      "panel": "c",
+      "model": "CAS-ESM2-0",
+      "color": "#DDCC77",
+      "start": [
+        571.32553098,
+        0.9249285842088588
+      ],
+      "end": [
+        517.21355008,
+        0.977911348682547
+      ]
+    },
+    {
+      "panel": "e",
+      "model": "GFDL-ESM4",
+      "color": "#44AA99",
+      "start": [
+        543.59663918,
+        0.7664275467499511
+      ],
+      "end": [
+        600.46887494,
+        0.6802090560323538
+      ]
+    },
+    {
+      "panel": "e",
+      "model": "GFDL-ESM4",
+      "color": "#44AA99",
+      "start": [
+        571.32553098,
+        0.4436427506339433
+      ],
+      "end": [
+        517.21355008,
+        0.5039217828556753
+      ]
+    },
+    {
+      "panel": "e",
+      "model": "NorESM2-LM",
+      "color": "#882255",
+      "start": [
+        543.59663918,
+        0.699073465179552
+      ],
+      "end": [
+        600.46887494,
+        0.6145149038308118
+      ]
+    },
+    {
+      "panel": "e",
+      "model": "NorESM2-LM",
+      "color": "#882255",
+      "start": [
+        571.32553098,
+        0.3708048945413034
+      ],
+      "end": [
+        517.21355008,
+        0.3876227948473584
+      ]
+    },
+    {
+      "panel": "e",
+      "model": "CanESM5",
+      "color": "#117733",
+      "start": [
+        543.59663918,
+        0.737886651254086
+      ],
+      "end": [
+        600.46887494,
+        0.7230787717167356
+      ]
+    },
+    {
+      "panel": "e",
+      "model": "CanESM5",
+      "color": "#117733",
+      "start": [
+        571.32553098,
+        0.4756029448491911
+      ],
+      "end": [
+        517.21355008,
+        0.5672698389632821
+      ]
+    },
+    {
+      "panel": "g",
+      "model": "CESM2",
+      "color": "#CC6677",
+      "start": [
+        543.59663918,
+        0.6659154248733572
+      ],
+      "end": [
+        600.46887494,
+        0.5753285729764085
+      ]
+    },
+    {
+      "panel": "g",
+      "model": "CESM2",
+      "color": "#CC6677",
+      "start": [
+        571.32553098,
+        0.145300005021649
+      ],
+      "end": [
+        517.21355008,
+        0.1330956470105516
+      ]
+    },
+    {
+      "panel": "g",
+      "model": "CNRM-ESM2-1",
+      "color": "#332288",
+      "start": [
+        543.59663918,
+        0.5591017942296063
+      ],
+      "end": [
+        600.46887494,
+        0.5462276294224003
+      ]
+    },
+    {
+      "panel": "g",
+      "model": "CNRM-ESM2-1",
+      "color": "#332288",
+      "start": [
+        571.32553098,
+        0.3417439825395591
+      ],
+      "end": [
+        517.21355008,
+        0.3376265770684772
+      ]
+    },
+    {
+      "panel": "g",
+      "model": "UKESM1-0-LL",
+      "color": "#999933",
+      "start": [
+        543.59663918,
+        0.6693759946158545
+      ],
+      "end": [
+        600.46887494,
+        0.6366314699770522
+      ]
+    },
+    {
+      "panel": "g",
+      "model": "UKESM1-0-LL",
+      "color": "#999933",
+      "start": [
+        571.32553098,
+        0.4283154106642614
+      ],
+      "end": [
+        517.21355008,
+        0.4661871271370287
+      ]
+    },
+    {
+      "panel": "g",
+      "model": "MIROC-ES2L",
+      "color": "#88CCEE",
+      "start": [
+        543.59663918,
+        0.7611496142984364
+      ],
+      "end": [
+        600.46887494,
+        0.6671276828407079
+      ]
+    },
+    {
+      "panel": "g",
+      "model": "MIROC-ES2L",
+      "color": "#88CCEE",
+      "start": [
+        571.32553098,
+        0.3546020156361926
+      ],
+      "end": [
+        517.21355008,
+        0.4018550303445856
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "panel": "a",
+      "bounds": [
+        0.16,
+        0.735,
+        0.68,
+        0.235
+      ]
+    },
+    {
+      "panel": "b",
+      "bounds": [
+        0.095,
+        0.505,
+        0.365,
+        0.17000000000000004
+      ]
+    },
+    {
+      "panel": "c",
+      "bounds": [
+        0.555,
+        0.505,
+        0.365,
+        0.17000000000000004
+      ]
+    },
+    {
+      "panel": "d",
+      "bounds": [
+        0.095,
+        0.285,
+        0.365,
+        0.16999999999999998
+      ]
+    },
+    {
+      "panel": "e",
+      "bounds": [
+        0.555,
+        0.285,
+        0.365,
+        0.16999999999999998
+      ]
+    },
+    {
+      "panel": "f",
+      "bounds": [
+        0.095,
+        0.065,
+        0.365,
+        0.17
+      ]
+    },
+    {
+      "panel": "g",
+      "bounds": [
+        0.555,
+        0.065,
+        0.365,
+        0.17
+      ]
+    }
+  ],
+  "forcing_display": {
+    "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+    "y_sha256": "7b26a44c230abc5a099c7e65f1b9b803b092abcb3c65f69253c701009ae62218",
+    "line_zorder": 6,
+    "band_zorder": 1,
+    "line_color": "#73818C",
+    "line_width": 1.15,
+    "white_halo": false,
+    "legend_background_alpha": 0.15,
+    "band_alpha": 0.18,
+    "rendered_in_main_axes": true
+  },
+  "appearance_reference": "Approved26.5N script copied directly, changing only40N data paths and export identity.",
+  "initial_legend": {
+    "title": "Model (initial AMOC, Sv)",
+    "labels": [
+      "ACCESS-ESM1-5 (18.7)",
+      "CanESM5 (13.1)",
+      "CESM2 (22.2)",
+      "CNRM-ESM2-1 (20.2)",
+      "GFDL-ESM4 (18.5)",
+      "MIROC-ES2L (14.4)",
+      "NorESM2-LM (22.5)",
+      "UKESM1-0-LL (16.6)",
+      "CAS-ESM2-0 (17.6)",
+      "9-model mean (18.2)"
+    ],
+    "bounds_figure": [
+      0.17156,
+      0.740875,
+      0.12821180555555556,
+      0.0808201058201059
+    ],
+    "overlapping_models": []
+  },
+  "model_legends": [
+    {
+      "panel": "c",
+      "labels": [
+        "ACCESS-ESM1-5",
+        "CAS-ESM2-0"
+      ],
+      "overlapping_models": []
+    },
+    {
+      "panel": "e",
+      "labels": [
+        "GFDL-ESM4",
+        "NorESM2-LM",
+        "CanESM5"
+      ],
+      "overlapping_models": []
+    },
+    {
+      "panel": "g",
+      "labels": [
+        "CESM2",
+        "CNRM-ESM2-1",
+        "UKESM1-0-LL",
+        "MIROC-ES2L"
+      ],
+      "overlapping_models": []
+    }
+  ],
+  "area_annotations": [
+    {
+      "panel": "d",
+      "bbox_figure": [
+        0.2616543517997207,
+        0.31158154761904755,
+        0.09930658570027928,
+        0.05743718048256735
+      ]
+    }
+  ],
+  "caption": "AMOC evolution and hysteresis pathways at the native latitude nearest40N. Panel a shows nine-model initial-decade anomalies, the equal-weight mean and intermodel population SD, with prescribed CO2 on a separate right axis. Panels b,d,f are idealized schematics of recovery with small A, recovery with large A, and non-recovery. Only panel d labels the shaded hysteresis area A, with an arrow from its blank lower portion; panel f retains open-path shading without an area label. The small-A schematic shows gently curved, separated branches enclosing a narrow closed area. Panels c,e,g overlay2,3,4actual model trajectories, respectively. Each model keeps its panel-a color for its complete CO2 rise-and-fall trajectory; all paths are solid and arrows show time direction. Actual trajectories remain the saved40N11yr centred means normalized by each model's raw years1-10 strength. No actual endpoint is forced to close and no actual small nonzero area is replaced by zero; the group names are descriptive author labels. Schematics are conceptual rather than fitted model curves or equilibrium branches. For panel a, the final five smoothed years now exclude post280 stabilization data, consistently with the model paths. The author designates this40N version as the primary manuscript figure;26.5N is a comparison version. Parentheses in the panel-a legend give mean AMOC strength over experiment years1-10 in Sv at the same native latitude; the9-model mean is the equal-weight average of those means.",
+  "source_files": [
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\overview_anomaly.csv",
+      "sha256": "c58323175d8d85454fa7e781c109ea925f83f8249ddeb93c01be039bc0cdeb93"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\co2_forcing.csv",
+      "sha256": "2795700ebef28b6c99b7e3133a48a9597cf7c577b77dd42ea6b7acd096cedb92"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\model_paths.csv",
+      "sha256": "8f8151d25b8c38cadef1644e01a03cbb901ffdfdd82fa30b94284c7493cdbaaf"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\schematic_paths.csv",
+      "sha256": "ff4fe292e6e806ad7ecfeaeab6887ec033ad0098b150915031dfcf0a24be7920"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\model_arrows.csv",
+      "sha256": "069cb5f9ff3a66b8c753996fbceac6684631c86ac40ad0ca0877f0fa20a5bc8d"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\schematic_arrows.csv",
+      "sha256": "518ca17234b32e5eb2264256c37b7eeb10788de75009675901b02f552e837cca"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\panels.csv",
+      "sha256": "f0c211c9b3f2f2e7ae30222432ea0185b4f7ea2d8fe4319caf2c047ccf3b9790"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\area_annotations.csv",
+      "sha256": "c207e0e46714f7677205cf437ba19ae638f8cba954b8da35a963ee39a4fe1d55"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\initial_legend_values.csv",
+      "sha256": "927e8cf10158c2162d7044ecc7587ac62ccc1df063a0d477361da871cf0c6db8"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s01_amoc\\n79_seven_panel_hysteresis_40n\\metadata.json",
+      "sha256": "a1fe963b1b0f1bac35e88e4b3a5f07d74776de369279d330bb24b4d48af6330f"
+    }
+  ],
+  "alt_text": "Seven panels at40N, the primary manuscript version; visual styling copied directly from the approved26.5N plot. A moderately wide top panel shows nine model AMOC anomalies and CO2 forcing. Three rows below pair a neutral-color schematic with2,3,4overlaid model loops. Actual model colors match panel a, with one solid color throughout both forcing phases. Only the middle schematic d labels hysteresis area with an arrow; f has no area label. Panel-a SD shading is semitransparent and the thin gray dashed CO2 line retains its original width without a halo. The SD band and legend background are translucent (alpha0.18 and0.15). Legend numbers give raw experiment-years1-10 mean AMOC strength."
+}

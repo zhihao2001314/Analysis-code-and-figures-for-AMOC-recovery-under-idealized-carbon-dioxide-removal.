@@ -1,0 +1,5 @@
+{
+  "script": "plot/s05_atmosphere/p05_amoc_recovery_composites/n82_six_model_circulation_net_precipitation.py",
+  "returncode": 0,
+  "added_dependency": "red_white_blue_rgb.npy"
+}

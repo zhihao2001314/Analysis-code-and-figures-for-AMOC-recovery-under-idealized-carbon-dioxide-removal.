@@ -1,0 +1,665 @@
+{
+  "panel_count": 7,
+  "figure_size_inches": [
+    11.4,
+    10.6
+  ],
+  "dpi": 450,
+  "overall_title": null,
+  "artist_records": [
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "ACCESS-ESM1-5",
+      "x_sha256": "6b1bea14df439e8627e344a62799f24569159d8fd0c029f924ffdbb24f2fadf6",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "ACCESS-ESM1-5",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "6d99ca6594a89874192121aa0dccf5164beebcf5473a417e90d68ed6d5881d6e"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "CanESM5",
+      "x_sha256": "3af34234b6edd87eb2b8037ab5dd8d1a4074bac8f3fb07343b64a15cce07068a",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "CanESM5",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "2549b0ef6cefe7324b445cce92570e7ae91e359c3acb1895fbf281e861b1fdf1"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "CESM2",
+      "x_sha256": "2ae5b577374c64bf70a25bbdb7787cfb79ce87f4c46c54d1cc1b72e5027b78ec",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "CESM2",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "54b93da1ce415ccb7f925efe1c57b5024cd33a07c70763ec73884ceed8acdae2"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "CNRM-ESM2-1",
+      "x_sha256": "fe8f9be4120a834d9ae222a2c98e0fed27657736fb4e99fe111691e90d8b9b26",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "CNRM-ESM2-1",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "30af97ec775337922b2c5d51e57e4656fdc7a417e39147bb69b77e12565ba5b2"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "GFDL-ESM4",
+      "x_sha256": "01fddc50ac838c6b3ecfee38b82eb138a9e0ba30bf5baec8063e35b83823fc5c",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "GFDL-ESM4",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "41e108b3b4dcee024db2eb4ce2a3ba6a46f648fa435ab85b397ef1e7922aafec"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "MIROC-ES2L",
+      "x_sha256": "5d3cd60f94a1337352d3b9cc0f21a1342af60192ec08d3a5b347e21310056856",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "MIROC-ES2L",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "ea5211e11de9620946c37e6010db40093fdfc11a50c6ce26ebad3fa0c98d4aed"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "NorESM2-LM",
+      "x_sha256": "7256a1f4164acc2d50a18209d730bfe3594f4dfbe65bdac24571bb5146144e6d",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "NorESM2-LM",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "fde47f11abfbba84955fc0376bf8c36e5fb4226163aac5ccda3b8709d3820bf7"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "UKESM1-0-LL",
+      "x_sha256": "5322fd35ab9ad89544942f6224739e39ea4c0ed1e3a34f251ca31d6270b562ae",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "UKESM1-0-LL",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "ba6f9a24902a77d221ecfce0c440b30f4fdd5be12d1de4eb2533c0c9ad9e1bc0"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "member_n2",
+      "model": "CAS-ESM2-0",
+      "x_sha256": "5600f4898f2dc7a733a6a02f1eb5f7a7feae853eb7dee1b63d89b53189f03bf4",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "c",
+      "region": "Labrador-Irminger",
+      "quantity": "member_mld",
+      "model": "CAS-ESM2-0",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "91633d090b80fa13f1278b0d0849b0f7d74de2a165835d6c98f946c362cda218"
+    },
+    {
+      "panel": "a",
+      "region": "Labrador-Irminger",
+      "quantity": "IAP",
+      "model": "IAP",
+      "x_sha256": "0768be77a08978ae11fb1eeaf8cffe5f3b4294ebacb0dc24f8a501013936fe30",
+      "y_sha256": "9f46f27408defca68da5cccaf2fba33bdd5e77602dacf9d046153d43c22f95e7",
+      "depth_min_m": 15.0,
+      "depth_max_m": 995.0
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "ACCESS-ESM1-5",
+      "x_sha256": "e125af5979e73fae50c5b6805b2572a87125df346ba10f28073d4b34d3ce3a75",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "ACCESS-ESM1-5",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "054262df91bfafd729c463f8f86f7213b42f67f2b4e4b1c457ff669500e1ca95"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "CanESM5",
+      "x_sha256": "8205de80f7972d5461edcea73bbd8db6fc4c304e9cd73199bd4e24e2f260bfb6",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "CanESM5",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "f3ded06780dbca542a474a966b91c10f799d04e20bf2fc426657c31acb49af33"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "CESM2",
+      "x_sha256": "44353ab55ec160bba501dd9e6bd51ee892d77744b480395a855506934120fdc5",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "CESM2",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "7cd73cd0e6e1bc80c82f591acd08990be260f5f42187e62a65d39a4740be82e4"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "CNRM-ESM2-1",
+      "x_sha256": "f4cb8274f789d42ff8603094f95fff3ac305f72571f3b1e579cfa66e461ed608",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "CNRM-ESM2-1",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "4fd6933f47f62b6e97eaba6e932cdc7ec052ddeb2f5f1f12c359197df9dd55aa"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "GFDL-ESM4",
+      "x_sha256": "61e5f484df62a17c767c9e3c3b3ac415c8b22bfb315aa91b1f955c5dadde0d50",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "GFDL-ESM4",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "7edff71ec3d7e3c529061e8c0c975368ac03c057d02c1673f1c784568de07e19"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "MIROC-ES2L",
+      "x_sha256": "7c0ea89cb386bf06f0bad34580d041930a7d09bf7f524a99526238306dff3aee",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "MIROC-ES2L",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "ca88b7feffc35daf56c7191dd8e7164b6c6b1cb03618296c8ad62e0daa5db823"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "NorESM2-LM",
+      "x_sha256": "26d0a3e82e96d9ab24664e876138f13970f6e2200123777f386b7e5ad281c52d",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "NorESM2-LM",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "c6d2ebcab1e468e8525d5d76fc21b2f8217d6b3f44b5c9975599499ef391a388"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "UKESM1-0-LL",
+      "x_sha256": "fe79640af5d6a754f93cba2b99cb6b2ffb3a63939e4feecf6734f71fe7941c8f",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "UKESM1-0-LL",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "ebf6190951f80aaf48bc027a589174e9058dec190c608c5bedd027e422b068e5"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "member_n2",
+      "model": "CAS-ESM2-0",
+      "x_sha256": "184865d2dc98a0b842f3bd3fc9cb0946f2c4500098c35a505b7185f1e9bcd7ef",
+      "y_sha256": "2e1c9e442807a23fec6699b34b5746307712f6101bb158b43106389618e31b4a"
+    },
+    {
+      "panel": "d",
+      "region": "Nordic Seas",
+      "quantity": "member_mld",
+      "model": "CAS-ESM2-0",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "f53fc76b1c8db02bf9a5ca3212e2d17afcb9c9d45ada346131541e48227d7ad6"
+    },
+    {
+      "panel": "b",
+      "region": "Nordic Seas",
+      "quantity": "IAP",
+      "model": "IAP",
+      "x_sha256": "171d5e341f84a4b6a5843579b35e33ea9839ffb9aedc15c38ef370a124acd539",
+      "y_sha256": "9f46f27408defca68da5cccaf2fba33bdd5e77602dacf9d046153d43c22f95e7",
+      "depth_min_m": 15.0,
+      "depth_max_m": 995.0
+    }
+  ],
+  "map_records": [
+    {
+      "panel": "e",
+      "group": "non_recovery",
+      "members": [
+        "CESM2",
+        "CNRM-ESM2-1",
+        "UKESM1-0-LL"
+      ],
+      "initial_sha256": "fc9d96c89e9132216fdf3470833066019d5093ce66494bdd9283bebebe77d825",
+      "delta_sha256": "fec7fcbd11beb06298466c410147a00c86429187930c301602376db694ca9aae",
+      "initial_SIC_sha256": "4d2c3558e0acf868163ce38b22a8cd244d6ba9a828a11d043b727fb83702be54",
+      "later_SIC_sha256": "2da624fdd045b4a05ee158233a8fe956ae247fbd3ad530584a4a062390efe1db",
+      "mld_contour_levels_m": [
+        200.0,
+        400.0,
+        600.0,
+        800.0,
+        1000.0
+      ],
+      "mld_contour_labels_m": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "ice_contour_segments": {
+        "initial": 4,
+        "later": 8
+      }
+    },
+    {
+      "panel": "f",
+      "group": "recovery",
+      "members": [
+        "NorESM2-LM",
+        "GFDL-ESM4",
+        "CAS-ESM2-0"
+      ],
+      "initial_sha256": "9b33ce26083c9e4b51918e8cdfecdb71a855b254be9eb308e35405e9b7f11d03",
+      "delta_sha256": "504456d6866965c8c67ebb5563b3ba1a04bfd900c091a9fe6ce4200f23dad01a",
+      "initial_SIC_sha256": "91aa06842d51a79f4786546ff3ce4e1d3ad6b73cb4f7acb22afdce697353c136",
+      "later_SIC_sha256": "9342e17779a6e091b85e62dd9f9e3ea1965f854731fe7a97a60d2d68208994bd",
+      "mld_contour_levels_m": [
+        200.0,
+        400.0,
+        600.0,
+        800.0,
+        1000.0
+      ],
+      "mld_contour_labels_m": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "ice_contour_segments": {
+        "initial": 7,
+        "later": 9
+      }
+    },
+    {
+      "panel": "g",
+      "group": "larger_bias",
+      "members": [
+        "ACCESS-ESM1-5",
+        "CanESM5",
+        "MIROC-ES2L"
+      ],
+      "initial_sha256": "244fff895dfcc624ccff52db89d02f0e98a7a3d649c60365d49d863bc41fa958",
+      "delta_sha256": "da57040f145d9ef1d218483a5b5418abc852f1b85f02c7ded2cf6e28b0fb4bcd",
+      "initial_SIC_sha256": "52f622d3f1d75ff24f0a5cea4f39b32f988b0b0e3b5ab5bdbc7f8b11a01214fa",
+      "later_SIC_sha256": "58588f2483e9a5f1e294b4ec41a958a170e8deec67465bdd1c2c877e7a81643d",
+      "mld_contour_levels_m": [
+        200.0,
+        400.0,
+        600.0,
+        800.0,
+        1000.0
+      ],
+      "mld_contour_labels_m": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "ice_contour_segments": {
+        "initial": 6,
+        "later": 6
+      }
+    }
+  ],
+  "axes": [
+    {
+      "panel": "a",
+      "bounds": [
+        0.085,
+        0.655,
+        0.39,
+        0.29499999999999993
+      ],
+      "xlim": [
+        -1.6,
+        9.2
+      ],
+      "ylim": [
+        1000.0,
+        0.0
+      ],
+      "xticks": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "panel": "c",
+      "bounds": [
+        0.085,
+        0.39,
+        0.39,
+        0.16200000000000003
+      ],
+      "xlim": [
+        1.0,
+        280.0
+      ],
+      "ylim": [
+        0.0,
+        700.0
+      ],
+      "xticks": [
+        1,
+        70,
+        140,
+        210,
+        280
+      ]
+    },
+    {
+      "panel": "b",
+      "bounds": [
+        0.57,
+        0.655,
+        0.39,
+        0.29499999999999993
+      ],
+      "xlim": [
+        -1.6,
+        9.2
+      ],
+      "ylim": [
+        1000.0,
+        0.0
+      ],
+      "xticks": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "panel": "d",
+      "bounds": [
+        0.57,
+        0.39,
+        0.39,
+        0.16200000000000003
+      ],
+      "xlim": [
+        1.0,
+        280.0
+      ],
+      "ylim": [
+        0.0,
+        700.0
+      ],
+      "xticks": [
+        1,
+        70,
+        140,
+        210,
+        280
+      ]
+    }
+  ],
+  "legends": {
+    "model_legend_bounds": [
+      0.26848684210526325,
+      0.5785953878406708,
+      0.5230263157894737,
+      0.03280922431865818
+    ],
+    "map_legend_bounds": [
+      0.22685307017543865,
+      0.0129811320754717,
+      0.5862938596491228,
+      0.016037735849056607
+    ],
+    "axis_text_overlap": []
+  },
+  "no_group_mean_curves": true,
+  "group_sizes": [
+    3,
+    3,
+    3
+  ],
+  "n2_axis_transform": {
+    "type": "piecewise_linear",
+    "raw_knots": [
+      -1.6,
+      0.0,
+      1.0,
+      2.0,
+      4.0,
+      6.0,
+      8.0,
+      9.2
+    ],
+    "display_knots": [
+      -0.22,
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      5.6
+    ],
+    "display_ticks_equal_spacing": true,
+    "negative_domain_compressed": true,
+    "on_panel_axis_note": false
+  },
+  "n2_tick_spacing": [
+    {
+      "panel": "a",
+      "tick_values": [
+        0.0,
+        1.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "display_x_pixels": [
+        113.70618556701032,
+        190.09793814432993,
+        266.48969072164954,
+        342.88144329896915,
+        419.27319587628875,
+        495.66494845360836
+      ],
+      "equal_spacing_verified": true
+    },
+    {
+      "panel": "b",
+      "tick_values": [
+        0.0,
+        1.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "display_x_pixels": [
+        666.6061855670102,
+        742.9979381443299,
+        819.3896907216495,
+        895.781443298969,
+        972.1731958762886,
+        1048.5649484536082
+      ],
+      "equal_spacing_verified": true
+    }
+  ],
+  "caption": "Initial March stratification and March mixed-layer depth in the Labrador-Irminger Seas (a,c) and Nordic Seas (b,d), with nine individual models shown in matching colors and no model-group mean curves. The piecewise-linear horizontal axes in a,b give equal visual spacing to0,1,2,4,6,8 without modifying the plotted physical N2 values. Black lines and gray bands show IAP March2005-2024 mean and interannual standard deviation using only observations within10-1000m; actual retained mid-depth levels are15-995m, without boundary extrapolation. The MLD curves retain the saved rectangular-region11yr centred means and missing end windows. The vertical dotted lines mark CO2 forcing reversal. Panels e-g show residual March MLD (final minus initial decades) for three fixed groups of3models: non-recovery (CESM2,CNRM-ESM2-1,UKESM1-0-LL), recovery (NorESM2-LM,GFDL-ESM4,CAS-ESM2-0), and larger bias (ACCESS-ESM1-5,CanESM5,MIROC-ES2L). Black contours show initial group-mean MLD at 200,400,600,800 and1000m. The filled scale spans-1000 to1000m, with extensions for values beyond that range and labelled ticks every500m. Initial and final ice edges are15percent contours of equal-weight group-mean annual SIC fields; the observed edge is the same NOAA/NSIDC1988-2020 annual climatology in all maps. All fixed members must have valid data for each averaged cell. No new smoothing, piControl correction or raw hydrographic computation is introduced.",
+  "model_colors": {
+    "ACCESS-ESM1-5": "#AA4499",
+    "CanESM5": "#117733",
+    "CESM2": "#CC6677",
+    "CNRM-ESM2-1": "#332288",
+    "GFDL-ESM4": "#44AA99",
+    "MIROC-ES2L": "#88CCEE",
+    "NorESM2-LM": "#882255",
+    "UKESM1-0-LL": "#999933",
+    "CAS-ESM2-0": "#DDCC77"
+  },
+  "mld_color_limits_m": [
+    -1000.0,
+    1000.0
+  ],
+  "mld_color_ticks_m": [
+    -1000.0,
+    -500.0,
+    0.0,
+    500.0,
+    1000.0
+  ],
+  "source_files": [
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\metadata.json",
+      "sha256": "c6050d4768bed399733d8ed5f3554185ed42e7aeef4c05cfa21c90fe54ffe62e"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\member_n2_profiles.csv",
+      "sha256": "b7b03fa47fd15d65fe6061c930385c4d97a38467a0c1ff6ddf4013a8908f6326"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\iap_profiles_10_1000m.csv",
+      "sha256": "a235fa1081db3b802604e4f05d6fe3e67f86c374ea55980a9afdd41c065abde5"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\member_mld_timeseries.csv",
+      "sha256": "1529941b2a712face813ab880ed3281775e36cd3f623930ac65bc207b67cce24"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\map_membership.csv",
+      "sha256": "24b4c3a3eae297b240edaadf4850f98920b295ab6438d1365a5877ce0bbabb9b"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\grouped_mld_sic_fields.npz",
+      "sha256": "74642f9b02df378708a725e8f4f7bef8b55469ee5cc6ae570c62559d4a9de88c"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\map_land_50m.geojson",
+      "sha256": "851eaa8e43b4827830fbe95a1cbd399d8269f94fe0b4975c69562ee06e3e20c3"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\map_coastline_50m.geojson",
+      "sha256": "6e0c90e8a0234b6d56dd4b706509683cc65ac25b1c2cabcec32a455d7e34097b"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s02_sia\\s02_arctic_region\\p23_stratification_mld_composite\\n093_compact_regional_hydrography\\mld_rectangular_vertices.csv",
+      "sha256": "c50bf68af94083d130d4f2871369fa923f1ee49befd50149df67ca8f29e6b5a0"
+    }
+  ],
+  "alt_text": "Seven-panel compact hydrography figure. Top: LI and Nordic Seas initial March N2, all9models and IAP reference only below10m. Middle: same9models regional March MLD with no group mean. Bottom: non-recovery, recovery and larger-bias MLD residual maps,3models each, with initial MLD contours, group-mean initial/final sea-ice edges and common observed edge. UK belongs to non-recovery and CAS to recovery."
+}

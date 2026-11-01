@@ -1,0 +1,527 @@
+{
+  "panel_count": 6,
+  "figure_size_inches": [
+    10.4,
+    9.6
+  ],
+  "dpi": 450,
+  "overall_title": null,
+  "groups": {
+    "recovered": [
+      "GFDL-ESM4",
+      "NorESM2-LM",
+      "CAS-ESM2-0"
+    ],
+    "not_recovered": [
+      "CESM2",
+      "CNRM-ESM2-1",
+      "UKESM1-0-LL"
+    ]
+  },
+  "group_sizes": [
+    3,
+    3
+  ],
+  "contrast": "non-recovery minus recovery",
+  "artist_records": [
+    {
+      "kind": "psi_change",
+      "product": "recovered",
+      "sha256": "e5f6889dd5889e0afe44f16503ecf73cd3ed223787642ebf0c5f45ceff22507e"
+    },
+    {
+      "kind": "psi_initial",
+      "product": "recovered",
+      "sha256": "e497ddf1b08f00aabff551d84833f2122ef95654ca2d18c7dd44c8ea90500b65"
+    },
+    {
+      "kind": "pe_change",
+      "product": "recovered",
+      "sha256": "e3efc5b6d73b9c31340d02f088a7cb9a0f82c9775bdea75c04893c9134f5cd80"
+    },
+    {
+      "kind": "psi_change",
+      "product": "not_recovered",
+      "sha256": "4bbdf9026f72b3639662f31ac127aaf4403739ea921a1e175a66130e384d2ab5"
+    },
+    {
+      "kind": "psi_initial",
+      "product": "not_recovered",
+      "sha256": "f76b19d8fce92c26c4224d0e463b18e10a188bbd27c9ee5b82a3d9386f217e8b"
+    },
+    {
+      "kind": "pe_change",
+      "product": "not_recovered",
+      "sha256": "eddd1a9b6b3f8a31eee2030a975f55be09055d5d2b85fa6e1057aecb7132f507"
+    },
+    {
+      "kind": "psi_change",
+      "product": "contrast",
+      "sha256": "08c7e0326ae903f2bc7fa6f6facab12b76ebfe72a049624454ca7811b6f5b34c"
+    },
+    {
+      "kind": "pe_change",
+      "product": "contrast",
+      "sha256": "68dbf38b47ff9070eef08d40cbc80c2dea5f4703e4978012d2aeba3d7fd7c8a5"
+    }
+  ],
+  "significance_records": [
+    {
+      "kind": "pe",
+      "product": "recovered",
+      "n_displayed_dots": 609,
+      "criterion": "all_three_models_same_sign",
+      "dot_offsets_sha256": "c0426a24fd789e9b4cd1b625552e91ce87db0653b74de51e72961b6395107fa7",
+      "significant_mask_sha256": "ae20f8fe5128cb963b08226acf55c4224bb3722536810953d6e9d86f9e925389",
+      "nonsignificant_mask_sha256": "7282dab834511b05d742bdc37dd0e9bb7ce5d20146f04f9723a3cf03b201d64f"
+    },
+    {
+      "kind": "pe",
+      "product": "not_recovered",
+      "n_displayed_dots": 852,
+      "criterion": "all_three_models_same_sign",
+      "dot_offsets_sha256": "a5d0e18c4403e458973f0eff0e603f93996a5c58ad0c98ca7de25f663694f6e8",
+      "significant_mask_sha256": "27e1fd3098cc1d4bc9b408d1fa9c50ae65dcbf36324cbad8be0b407c45cbc9d6",
+      "nonsignificant_mask_sha256": "66bcda26b15140d6059b13c211b9c6e1e8f4185cc0aaa74d09256db232fdb4f7"
+    },
+    {
+      "kind": "psi",
+      "product": "contrast",
+      "n_displayed_dots": 77,
+      "dot_offsets_sha256": "43ad4d743e1da754e60f008b5ffea7b8bede503866b473494a73928864dc54a1",
+      "significant_mask_sha256": "e593b531753adaa2a0c719a9d1af24949ed93002b1ed1d2b02881bc37f7d1278",
+      "nonsignificant_mask_sha256": "4eeec7fe2ec32e5c774ab76fa2cf07374c14228d7b6ca1afebd50cf8706c1a19"
+    },
+    {
+      "kind": "pe",
+      "product": "contrast",
+      "n_displayed_dots": 338,
+      "criterion": "two_sided_block_bootstrap_BH_q_lt_0.05",
+      "dot_offsets_sha256": "98477dbf89f13ca6fe1917d07c95e8b5f48dd837457e771e8e39c5faf3b8b0d0",
+      "significant_mask_sha256": "42cbcf5ec4482b61f30f9ad237046daf268698395f1754b095294898e37b4d25",
+      "nonsignificant_mask_sha256": "b32b24b2d9a2dbbb34258f31fc17dd6b130ee4a2fb4cbc41317e11712dad936c"
+    }
+  ],
+  "geographic_labels": [
+    {
+      "product": "recovered",
+      "latitude": -60,
+      "label": "60°S"
+    },
+    {
+      "product": "recovered",
+      "latitude": -30,
+      "label": "30°S"
+    },
+    {
+      "product": "recovered",
+      "latitude": 0,
+      "label": "0°"
+    },
+    {
+      "product": "recovered",
+      "latitude": 30,
+      "label": "30°N"
+    },
+    {
+      "product": "recovered",
+      "latitude": 60,
+      "label": "60°N"
+    },
+    {
+      "product": "not_recovered",
+      "latitude": -60,
+      "label": "60°S"
+    },
+    {
+      "product": "not_recovered",
+      "latitude": -30,
+      "label": "30°S"
+    },
+    {
+      "product": "not_recovered",
+      "latitude": 0,
+      "label": "0°"
+    },
+    {
+      "product": "not_recovered",
+      "latitude": 30,
+      "label": "30°N"
+    },
+    {
+      "product": "not_recovered",
+      "latitude": 60,
+      "label": "60°N"
+    },
+    {
+      "product": "contrast",
+      "latitude": -60,
+      "label": "60°S"
+    },
+    {
+      "product": "contrast",
+      "latitude": -30,
+      "label": "30°S"
+    },
+    {
+      "product": "contrast",
+      "latitude": 0,
+      "label": "0°"
+    },
+    {
+      "product": "contrast",
+      "latitude": 30,
+      "label": "30°N"
+    },
+    {
+      "product": "contrast",
+      "latitude": 60,
+      "label": "60°N"
+    }
+  ],
+  "peak_markers": true,
+  "marker_records": [
+    {
+      "product": "recovered",
+      "period": "early",
+      "n": 36,
+      "marker": "o",
+      "offsets_sha256": "96379eb1d2777e5e9f2e7d806975488b35cf1f5dd835f33840ad39bc7239460d"
+    },
+    {
+      "product": "recovered",
+      "period": "later",
+      "n": 36,
+      "marker": "x",
+      "offsets_sha256": "91fdbf3a810dc35b03bc28401ba36f04b5e240822f53222de6908895f8f4a496"
+    },
+    {
+      "product": "not_recovered",
+      "period": "early",
+      "n": 36,
+      "marker": "o",
+      "offsets_sha256": "54763631f9531887d1678e2627471de82df5f8c94a3309f533e5bbe1e8d10892"
+    },
+    {
+      "product": "not_recovered",
+      "period": "later",
+      "n": 36,
+      "marker": "x",
+      "offsets_sha256": "ad6e38ee6ce4ca69f03b85defd0e6b8bf22e8e70dd4e2caf83c4aa3498104bea"
+    }
+  ],
+  "connector_records": [
+    {
+      "product": "recovered",
+      "lon": -170.0,
+      "x": [
+        -170.0,
+        -170.0
+      ],
+      "y": [
+        8.0,
+        -10.0
+      ]
+    },
+    {
+      "product": "recovered",
+      "lon": -60.0,
+      "x": [
+        -60.0,
+        -60.0
+      ],
+      "y": [
+        -6.0,
+        -10.0
+      ]
+    },
+    {
+      "product": "recovered",
+      "lon": -50.0,
+      "x": [
+        -50.0,
+        -50.0
+      ],
+      "y": [
+        -6.0,
+        -8.0
+      ]
+    },
+    {
+      "product": "recovered",
+      "lon": 0.0,
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        10.0,
+        8.0
+      ]
+    },
+    {
+      "product": "recovered",
+      "lon": 20.0,
+      "x": [
+        20.0,
+        20.0
+      ],
+      "y": [
+        0.0,
+        -8.0
+      ]
+    },
+    {
+      "product": "recovered",
+      "lon": 100.0,
+      "x": [
+        100.0,
+        100.0
+      ],
+      "y": [
+        -2.0,
+        -4.0
+      ]
+    },
+    {
+      "product": "recovered",
+      "lon": 110.0,
+      "x": [
+        110.0,
+        110.0
+      ],
+      "y": [
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "product": "recovered",
+      "lon": 140.0,
+      "x": [
+        140.0,
+        140.0
+      ],
+      "y": [
+        -4.0,
+        -2.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": -180.0,
+      "x": [
+        -180.0,
+        -180.0
+      ],
+      "y": [
+        -10.0,
+        -8.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": -170.0,
+      "x": [
+        -170.0,
+        -170.0
+      ],
+      "y": [
+        8.0,
+        -8.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": -160.0,
+      "x": [
+        -160.0,
+        -160.0
+      ],
+      "y": [
+        8.0,
+        -10.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": -120.0,
+      "x": [
+        -120.0,
+        -120.0
+      ],
+      "y": [
+        10.0,
+        8.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": -110.0,
+      "x": [
+        -110.0,
+        -110.0
+      ],
+      "y": [
+        10.0,
+        8.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": -60.0,
+      "x": [
+        -60.0,
+        -60.0
+      ],
+      "y": [
+        -6.0,
+        -8.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": -30.0,
+      "x": [
+        -30.0,
+        -30.0
+      ],
+      "y": [
+        4.0,
+        -2.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": 0.0,
+      "x": [
+        0.0,
+        0.0
+      ],
+      "y": [
+        8.0,
+        2.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": 10.0,
+      "x": [
+        10.0,
+        10.0
+      ],
+      "y": [
+        6.0,
+        2.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": 60.0,
+      "x": [
+        60.0,
+        60.0
+      ],
+      "y": [
+        -2.0,
+        -4.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": 80.0,
+      "x": [
+        80.0,
+        80.0
+      ],
+      "y": [
+        6.0,
+        -2.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": 90.0,
+      "x": [
+        90.0,
+        90.0
+      ],
+      "y": [
+        2.0,
+        -2.0
+      ]
+    },
+    {
+      "product": "not_recovered",
+      "lon": 110.0,
+      "x": [
+        110.0,
+        110.0
+      ],
+      "y": [
+        2.0,
+        0.0
+      ]
+    }
+  ],
+  "peak_definition": "Latitude of the maximum absolute group-mean P-E climatology at each longitude within20S-20N; not maximum P-E change.",
+  "marker_spacing_deg": 10,
+  "significance": "b/d: all3 strictly same-sign P-E change; e/f: max-L234-block-bootstrap BH q<0.05. a/c have no test overlay.",
+  "palette_limits": {
+    "psi": [
+      -40,
+      40
+    ],
+    "pe": [
+      -3,
+      3
+    ]
+  },
+  "caption": "Atmospheric circulation and net precipitation responses across AMOC recovery groups. Rows show recovery (GFDL-ESM4, NorESM2-LM, CAS-ESM2-0), non-recovery (CESM2, CNRM-ESM2-1, UKESM1-0-LL), and non-recovery minus recovery. Each group is an equal-weight mean of three fixed models. (a, c) Shading shows annual zonal-mean meridional mass streamfunction changes; contours show initial circulation, solid positive and dashed negative. Positive and negative streamfunction denote clockwise and counterclockwise circulation, respectively, in the displayed latitude-pressure sections; units are 10^9 kg s^-1. (e) Difference between group-mean streamfunction changes. (b, d) Annual net precipitation changes, P-E, where E is upward surface evaporation, including sublimation and transpiration. Green/brown indicate increased/decreased net precipitation in mm day^-1. Positive changes indicate a shift toward a more positive surface freshwater balance, not necessarily positive absolute P-E. (f) Non-recovery minus recovery net precipitation changes. Changes are experiment years 271-280 minus 1-10. In (b, d), dots indicate that all three individual-model P-E changes have the same sign; cross-hatching indicates no unanimous sign agreement, not a failed statistical test. In (e, f), dots indicate bootstrap-FDR significance and cross-hatching indicates failure: 9999 centered two-sided circular block draws, maximum p across 2/3/4-year blocks, BH q<0.05. Dots are subsampled for clarity. Circulation fields and their masks are unchanged from the precipitation version; P-E contrast significance is recomputed using P-E samples. Blue open circles and magenta crosses in (b, d) mark the initial and later latitude of maximum group-mean absolute P-E within 20S-20N, at longitudes sampled every 10 degrees. Thin grey connectors show latitude differences at the same longitude. These markers indicate net-precipitation rainband positions, not significance; they differ from the precipitation-maximum or median ITCZ indices. Initial and later periods are years1-10 and271-280, respectively.",
+  "source_files": [
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n74_six_model_circulation_composites\\group_circulation_climatology.nc",
+      "sha256": "29d754e7535056d5d82dfb4ff4288ce05ef4bebd6edc769e669ab7b2a1caa09b"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n74_six_model_circulation_composites\\group_circulation_changes.nc",
+      "sha256": "eb357be12c9b9ce9fe9590770f17477c4760fcb158cb8dcf5653109b5b0d77e2"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n74_six_model_circulation_composites\\psi_significance.nc",
+      "sha256": "5591982c4d89a21215814837369ab6bfdb778424cf58f08ba54d4e1080d448f2"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n74_six_model_circulation_composites\\metadata.json",
+      "sha256": "b72ecef59ec922a0bae32f97b84e3af757448c4f4423a34fc2dcb8b9c23e8efd"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n81_six_model_net_precipitation\\group_changes.nc",
+      "sha256": "4162c62e8cffa89c4cd63707fb520d4f10e75645f4e1fac2a4caa015ddae6113"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n81_six_model_net_precipitation\\pe_display_criteria.nc",
+      "sha256": "9ea5bd1503f30e18b935c042fc675d04de9538defdb90e572386478135c4855c"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n81_six_model_net_precipitation\\metadata.json",
+      "sha256": "f45c66fb48f57b677728316c5158855a81b99234ce2ef4faa51cb92b01950b23"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n83_net_precipitation_peak_markers\\net_precipitation_peak_gridpoints.csv",
+      "sha256": "24165706c58d61d9a6ebd3e4a9d76e0e1793a37cd79e1bec52d7e9144a28c038"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n83_net_precipitation_peak_markers\\metadata.json",
+      "sha256": "33bb715ae1a34f6aea1d782adb0d31be93e9c9ff77548e2584d0471028766e29"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n04_toa_spatial_patterns\\coastline_global_110m.geojson",
+      "sha256": "fae624174ed9ef4c901ccf44676d7e6776b46d5c894a890d1538a50d5620eb67"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\check_red_white_blue_style\\red_white_blue_rgb.npy",
+      "sha256": "886a1ffd9d8edf70b7bd6f22aa07259d357a2021b800fdc88496f9fbf6d8f26b"
+    }
+  ]
+}

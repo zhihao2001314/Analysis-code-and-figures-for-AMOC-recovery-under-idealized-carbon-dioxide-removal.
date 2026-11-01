@@ -1,0 +1,149 @@
+{
+  "models": [
+    "ACCESS-ESM1-5",
+    "CanESM5",
+    "CESM2",
+    "CNRM-ESM2-1",
+    "GFDL-ESM4",
+    "MIROC-ES2L",
+    "NorESM2-LM",
+    "UKESM1-0-LL",
+    "CAS-ESM2-0"
+  ],
+  "panel_count": 9,
+  "figure_size_inches": [
+    10.4,
+    11.2
+  ],
+  "dpi": 450,
+  "color_limits_degC": [
+    -8,
+    8
+  ],
+  "records": [
+    {
+      "model": "ACCESS-ESM1-5",
+      "nonempty_ice_segments": [
+        4,
+        4,
+        71
+      ],
+      "field_sha256": "c5a34b733ebaef7107168957403825f30fd193b3a45a3599ec0e85dde5546071"
+    },
+    {
+      "model": "CanESM5",
+      "nonempty_ice_segments": [
+        3,
+        5,
+        71
+      ],
+      "field_sha256": "87782511f81359bac05d90a7009fb6663655d65dd442c20ea3628ac86394923a"
+    },
+    {
+      "model": "CESM2",
+      "nonempty_ice_segments": [
+        8,
+        4,
+        71
+      ],
+      "field_sha256": "a36ad6867e9bf2a070ebbc0f630d4b0420f0af5787140142e04fb62923cf09b7"
+    },
+    {
+      "model": "CNRM-ESM2-1",
+      "nonempty_ice_segments": [
+        7,
+        4,
+        71
+      ],
+      "field_sha256": "f8db344827463d4fde9e9c60b28f4ce5a1a52ab5ea1a2d1a7d807d8580eba053"
+    },
+    {
+      "model": "GFDL-ESM4",
+      "nonempty_ice_segments": [
+        11,
+        11,
+        71
+      ],
+      "field_sha256": "3c4a86d7c1202b5097f93324619a4ea28cf720b934f54cb9b57c64c5f8baa6eb"
+    },
+    {
+      "model": "MIROC-ES2L",
+      "nonempty_ice_segments": [
+        5,
+        7,
+        71
+      ],
+      "field_sha256": "6b1e94d846ba15e52aed304055abcb6777fcdb786c5cdd4e0534933ec75933ca"
+    },
+    {
+      "model": "NorESM2-LM",
+      "nonempty_ice_segments": [
+        9,
+        6,
+        71
+      ],
+      "field_sha256": "cc0dee5245e475c662504bcb25d9a634f6aa84d43cd3dca1230fa9e14bbee442"
+    },
+    {
+      "model": "UKESM1-0-LL",
+      "nonempty_ice_segments": [
+        8,
+        9,
+        71
+      ],
+      "field_sha256": "fb47e5a283ab198e5a8aef53d59d881bc9536696f36ff636b3d4db9ba53c58cc"
+    },
+    {
+      "model": "CAS-ESM2-0",
+      "nonempty_ice_segments": [
+        4,
+        5,
+        71
+      ],
+      "field_sha256": "67d7cf21c982c59469e9284940c03e0c1e2739dabde394e7ce27e196c7708650"
+    }
+  ],
+  "regions": {
+    "CA": [
+      70.0,
+      90.0,
+      -180.0,
+      180.0
+    ],
+    "NA": [
+      45.0,
+      70.0,
+      -60.0,
+      30.0
+    ],
+    "NP": [
+      45.0,
+      70.0,
+      120.0,
+      -150.0
+    ]
+  },
+  "caption": "Arctic near-surface air-temperature residuals and sea-ice edges for nine models. Shading shows final minus initial annual-mean tas (degreesC). Initial and final are experiment years1–10 and271–280, using the existing endpoint diagnostics. Purple and green dashed lines show the initial and final15% sea-ice concentration contours, respectively; magenta lines show the NOAA/NSIDC1988–2020 observed annual-mean15% edge. Coloured region boundaries identify CA(70–90N, all longitudes), NA(45–70N,60W–30E), and NP(45–70N,120E–150W). Regional annotations give existing area-weighted tas changes over fixed geographical regions on common nine-model valid support, with no sea-ice mask. No significance test is displayed.",
+  "source_files": [
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n19_arctic_partition_tas_ice\\arctic_partition_tas_ice.npz",
+      "sha256": "1c4814901c92fea1c350f224b61788e60cd3f602da2cd9c809668f2f246f2d7b"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n19_arctic_partition_tas_ice\\coastline.geojson",
+      "sha256": "fae624174ed9ef4c901ccf44676d7e6776b46d5c894a890d1538a50d5620eb67"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n19_arctic_partition_tas_ice\\metadata.json",
+      "sha256": "1e3565410de9e32d76214d19a9400611f0552308f825b663df591e168d8490d0"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n19_arctic_partition_tas_ice\\observed_sic_1988_2020_climatology_edge.npz",
+      "sha256": "2773c5600ce06110d3f9ee402e9ea150fefa292c044e7f29d41d30493cbf34e9"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n19_arctic_partition_tas_ice\\regional_tas_changes.csv",
+      "sha256": "1083bd6a6a7610d25338778fcbd530603af9ff886241bc93d9d48db68ed3eb34"
+    }
+  ]
+}

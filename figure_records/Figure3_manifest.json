@@ -1,0 +1,831 @@
+{
+  "status": "complete_with_CAS_alignment_limitation",
+  "panel_count": 6,
+  "figure_size_inches": [
+    12.6,
+    6.5
+  ],
+  "dpi": 450,
+  "overall_title": null,
+  "groups": {
+    "non_recovery": [
+      "CESM2",
+      "CNRM-ESM2-1"
+    ],
+    "recovery": [
+      "CAS-ESM2-0",
+      "GFDL-ESM4",
+      "NorESM2-LM"
+    ]
+  },
+  "group_sizes": [
+    2,
+    3
+  ],
+  "temperature_groups": {
+    "non_recovery": [
+      "CESM2",
+      "CNRM-ESM2-1",
+      "UKESM1-0-LL"
+    ],
+    "recovery": [
+      "CAS-ESM2-0",
+      "GFDL-ESM4",
+      "NorESM2-LM"
+    ]
+  },
+  "temperature_group_sizes": [
+    3,
+    3
+  ],
+  "graticule_records": [
+    {
+      "panel": "d",
+      "internal_xlines": false,
+      "internal_ylines": false,
+      "longitude_labels": [
+        "120\u00b0W",
+        "60\u00b0W",
+        "0\u00b0",
+        "60\u00b0E",
+        "120\u00b0E"
+      ],
+      "latitude_labels": [
+        "30\u00b0S",
+        "0\u00b0",
+        "30\u00b0N",
+        "60\u00b0S",
+        "60\u00b0S",
+        "60\u00b0N",
+        "60\u00b0N"
+      ]
+    },
+    {
+      "panel": "e",
+      "internal_xlines": false,
+      "internal_ylines": false,
+      "longitude_labels": [
+        "120\u00b0W",
+        "60\u00b0W",
+        "0\u00b0",
+        "60\u00b0E",
+        "120\u00b0E"
+      ],
+      "latitude_labels": [
+        "30\u00b0S",
+        "0\u00b0",
+        "30\u00b0N",
+        "60\u00b0S",
+        "60\u00b0S",
+        "60\u00b0N",
+        "60\u00b0N"
+      ]
+    },
+    {
+      "panel": "f",
+      "internal_xlines": false,
+      "internal_ylines": false,
+      "longitude_labels": [
+        "120\u00b0W",
+        "60\u00b0W",
+        "0\u00b0",
+        "60\u00b0E",
+        "120\u00b0E"
+      ],
+      "latitude_labels": [
+        "30\u00b0S",
+        "0\u00b0",
+        "30\u00b0N",
+        "60\u00b0S",
+        "60\u00b0S",
+        "60\u00b0N",
+        "60\u00b0N"
+      ]
+    }
+  ],
+  "radiation_limits": [
+    -5,
+    7
+  ],
+  "component_linestyles": [
+    "-",
+    "-",
+    "-"
+  ],
+  "model_component_colors": {
+    "CESM2": [
+      "#ad5765",
+      "#de9ca7"
+    ],
+    "CNRM-ESM2-1": [
+      "#2b1d74",
+      "#7a6fb2"
+    ],
+    "CAS-ESM2-0": [
+      "#98832a",
+      "#cebd7a"
+    ],
+    "GFDL-ESM4": [
+      "#3a9082",
+      "#85c8bd"
+    ],
+    "NorESM2-LM": [
+      "#741d48",
+      "#b26f90"
+    ]
+  },
+  "model_legend_records": [
+    {
+      "panel": "a",
+      "handle_style": "one solid model-colour line per model; no segmented swatches",
+      "title": "",
+      "labels": [
+        "CESM2",
+        "CNRM-ESM2-1"
+      ]
+    },
+    {
+      "panel": "b",
+      "handle_style": "one solid model-colour line per model; no segmented swatches",
+      "title": "",
+      "labels": [
+        "CAS-ESM2-0",
+        "GFDL-ESM4",
+        "NorESM2-LM"
+      ]
+    }
+  ],
+  "radiation_curve_counts": {
+    "a": 7,
+    "b": 9,
+    "c": 3
+  },
+  "individual_SW_LW_encoding": "Only individual SW and LW; one hue per model, SW darker, LW lighter, all solid. No individual net curves. Three thick solid group means and difference retain black/orange/blue component colours.",
+  "hatch_records": [
+    {
+      "panel": "d",
+      "criterion": "three-model sign agreement",
+      "hatched_cells": 12759,
+      "mask_sha256": "5c6a9997d9f1a57675e434e68f9031222d4b27df8982981e371fca14f321eea4"
+    },
+    {
+      "panel": "e",
+      "criterion": "three-model sign agreement",
+      "hatched_cells": 16959,
+      "mask_sha256": "40215ac64c65e57d8c0ebc1677d1b0a7f4ba8e3a5dd2d514df2f3394e8ec95eb"
+    },
+    {
+      "panel": "f",
+      "criterion": "centered circular-block bootstrap, global BH q<0.05",
+      "hatched_cells": 12031,
+      "mask_sha256": "44a4bd9224c238ef3aa396a40c2e726992ed2cb9e647740a88fe44e2198b0a93"
+    }
+  ],
+  "ice_records": [
+    {
+      "panel": "d",
+      "period": "initial",
+      "level": 0.15,
+      "linewidth": 0.5,
+      "color": "#7B3DBA",
+      "segments": 13,
+      "field_sha256": "63bd260e7bbc7a7a59a38c4bea081260c6fbd072356f2c953e40fb6ebb691100"
+    },
+    {
+      "panel": "d",
+      "period": "final",
+      "level": 0.15,
+      "linewidth": 0.5,
+      "color": "#27985B",
+      "segments": 11,
+      "field_sha256": "0770cefdc38095e218664dc2bb3c4f199b24e5466996b7d861f29f2aa940f412"
+    },
+    {
+      "panel": "d",
+      "period": "observed",
+      "hemisphere": "north",
+      "level": 0.15,
+      "linewidth": 0.5,
+      "color": "#E000C8",
+      "segments": 33
+    },
+    {
+      "panel": "d",
+      "period": "observed",
+      "hemisphere": "south",
+      "level": 0.15,
+      "linewidth": 0.5,
+      "color": "#E000C8",
+      "segments": 2
+    },
+    {
+      "panel": "e",
+      "period": "initial",
+      "level": 0.15,
+      "linewidth": 0.5,
+      "color": "#7B3DBA",
+      "segments": 11,
+      "field_sha256": "3ca58d097f11df9492b7e506ee0a5c821c8d0471caa904f464ee6989f4aa9a5d"
+    },
+    {
+      "panel": "e",
+      "period": "final",
+      "level": 0.15,
+      "linewidth": 0.5,
+      "color": "#27985B",
+      "segments": 14,
+      "field_sha256": "f666a7dfba996bd1ce935b203a41bdd338899d0486668d5f96f598a28012586d"
+    },
+    {
+      "panel": "e",
+      "period": "observed",
+      "hemisphere": "north",
+      "level": 0.15,
+      "linewidth": 0.5,
+      "color": "#E000C8",
+      "segments": 33
+    },
+    {
+      "panel": "e",
+      "period": "observed",
+      "hemisphere": "south",
+      "level": 0.15,
+      "linewidth": 0.5,
+      "color": "#E000C8",
+      "segments": 2
+    }
+  ],
+  "panel_titles": [
+    "Non-recovery",
+    "Recovery",
+    "Non-recovery \u2212 Recovery"
+  ],
+  "stipple_records": [
+    {
+      "panel": "d",
+      "stride": 4,
+      "display_points": 3245,
+      "marker_size_pt2": 1.2,
+      "all_passed_cells": 52041,
+      "mask_sha256": "b626156ec9bc0da45cfb0863633b1a7e34977e97aa809a9d35ac5351bb66b2e3",
+      "offsets_sha256": "6dff0e159de1a8fda541951a6292997a64dc53efc6beed60eb25beeb07441af7"
+    },
+    {
+      "panel": "e",
+      "stride": 4,
+      "display_points": 2990,
+      "marker_size_pt2": 1.2,
+      "all_passed_cells": 47841,
+      "mask_sha256": "fe59e824b32ffa5ca368121c2c99fb91e8d07e94e99056c231e866e0fb4f5c23",
+      "offsets_sha256": "59eadc943406329c6cc641a804228afaf8748e565ec0f4cad4a2e3e29435a27a"
+    },
+    {
+      "panel": "f",
+      "stride": 4,
+      "display_points": 3305,
+      "marker_size_pt2": 1.2,
+      "all_passed_cells": 52769,
+      "mask_sha256": "4ce14b1653dcae93edfa424cfcc5388f707a4fd14dcdca1ae4974c98c29833b3",
+      "offsets_sha256": "469462204c95b18ed71462cb194a07864b4a59a287ad7b84d2973346c006dc94"
+    }
+  ],
+  "significance_metadata": {
+    "status": "passed",
+    "models": [
+      "CESM2",
+      "CNRM-ESM2-1",
+      "UKESM1-0-LL",
+      "CAS-ESM2-0",
+      "GFDL-ESM4",
+      "NorESM2-LM"
+    ],
+    "period_years": [
+      [
+        [
+          1,
+          10
+        ],
+        [
+          131,
+          140
+        ]
+      ],
+      [
+        [
+          1850,
+          1859
+        ],
+        [
+          2120,
+          2129
+        ]
+      ],
+      [
+        [
+          1850,
+          1859
+        ],
+        [
+          2120,
+          2129
+        ]
+      ],
+      [
+        [
+          200,
+          209
+        ],
+        [
+          470,
+          479
+        ]
+      ],
+      [
+        [
+          6,
+          15
+        ],
+        [
+          271,
+          280
+        ]
+      ],
+      [
+        [
+          1,
+          10
+        ],
+        [
+          271,
+          280
+        ]
+      ]
+    ],
+    "annual_dimensions": "model6,period2,year_in_window10,lat180,lon360",
+    "raw_dimensions": "All six raw tas(time,lat,lon), units K; 1D native lat/lon.",
+    "temporal_mean": "Equal calendar-month means, matching existing displayed residual maps.",
+    "spatial_method": "Native annual means mapped to 1 degree using 4-neighbour spherical IDW power2, max450km; no field smoothing.",
+    "d_e_criterion": "All three individual-model residuals strictly positive or all strictly negative. Sign agreement, not a p-value test.",
+    "f_observed": "Mean of three non-recovery residual maps minus mean of three recovery residual maps.",
+    "f_test": "Two-sided centered circular-block bootstrap; independent within model/period, shared indices across global cells; fixed equal model weights.",
+    "bootstrap_replicates": 9999,
+    "seed": 20261030,
+    "block_lengths": [
+      2,
+      3,
+      4
+    ],
+    "multiple_testing": "Maximum p over L2/3/4, then BH across all64800global grid cells; q<0.05.",
+    "inference_limit": "Temporal sampling conditional on six fixed model identities, not model-population or causal inference. Only ten annual samples per endpoint.",
+    "temperature_fields_unchanged": true,
+    "reconstruction_errors": [
+      {
+        "model": "CESM2",
+        "max_reconstructed_residual_error_degC": 4.754123708039515e-07
+      },
+      {
+        "model": "CNRM-ESM2-1",
+        "max_reconstructed_residual_error_degC": 4.756422988805298e-07
+      },
+      {
+        "model": "UKESM1-0-LL",
+        "max_reconstructed_residual_error_degC": 6.394884621840902e-14
+      },
+      {
+        "model": "CAS-ESM2-0",
+        "max_reconstructed_residual_error_degC": 2.3821858530226336e-07
+      },
+      {
+        "model": "GFDL-ESM4",
+        "max_reconstructed_residual_error_degC": 7.105427357601002e-14
+      },
+      {
+        "model": "NorESM2-LM",
+        "max_reconstructed_residual_error_degC": 1.557912163718811e-07
+      }
+    ],
+    "CAS_limitation": "Existing provisional piControl mapping affects radiation; inconsistent CAS branch metadata also preclude asserting verified restart continuity. No offsets applied to temperature.",
+    "caption": "Figure 3. Global radiative and near-surface air-temperature responses. (a, b) piControl-relative net radiation (black), absorbed shortwave contribution (orange), and negative outgoing-longwave contribution (blue) for the non-recovery and recovery groups. Thin lines show individual models and thick lines show equal-weight group means; all components are plotted as solid lines. (c) Non-recovery minus Recovery group means. Radiation uses two non-recovery models (CESM2 and CNRM-ESM2-1) and three recovery models (CAS-ESM2-0, GFDL-ESM4, and NorESM2-LM). Lines show saved 11-year centred means, computed within each forcing phase; the vertical dotted line marks the forcing reversal. (d, e) Group-mean temperature changes between experiment years 271\u2013280 and 1\u201310, with UKESM1-0-LL also included in the non-recovery temperature group (three models in each group). Cross-hatching marks grid cells where the three model changes do not all have the same sign. (f) Difference between the two group-mean temperature changes (non-recovery minus recovery); cross-hatching marks differences that do not pass a two-sided circular year-block bootstrap test (9,999 resamples; maximum p across block lengths of 2, 3, and 4 years), followed by global Benjamini\u2013Hochberg FDR correction at q < 0.05. The test estimates temporal sampling uncertainty conditional on the six fixed models. Temperature maps use the same colour scale.",
+    "source_files": [
+      {
+        "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n18_five_model_figure3\\temperature_panels.npz",
+        "sha256": "40a1852d7d9c5132b7099614685b82f1ebe04046f497442cf3d4d98876928411"
+      },
+      {
+        "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n13_six_model_global_temperature_groups\\global_temperature_groups.npz",
+        "sha256": "b40439780d9903fa86abe6e6f466126c3ff23c99de222a7f605f4b659e3196dd"
+      },
+      {
+        "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n13_six_model_global_temperature_groups\\metadata.json",
+        "sha256": "eb42710fd3b5d4a3aa3efca81817331794cc3afe12e1d1ee7f35c49054546904"
+      }
+    ]
+  },
+  "ice_metadata": {
+    "status": "passed",
+    "models": [
+      "CESM2",
+      "CNRM-ESM2-1",
+      "UKESM1-0-LL",
+      "CAS-ESM2-0",
+      "GFDL-ESM4",
+      "NorESM2-LM"
+    ],
+    "groups": {
+      "non_recovery": [
+        "CESM2",
+        "CNRM-ESM2-1",
+        "UKESM1-0-LL"
+      ],
+      "recovery": [
+        "CAS-ESM2-0",
+        "GFDL-ESM4",
+        "NorESM2-LM"
+      ]
+    },
+    "period_years": [
+      [
+        [
+          1,
+          10
+        ],
+        [
+          131,
+          140
+        ]
+      ],
+      [
+        [
+          1850,
+          1859
+        ],
+        [
+          2120,
+          2129
+        ]
+      ],
+      [
+        [
+          1850,
+          1859
+        ],
+        [
+          2120,
+          2129
+        ]
+      ],
+      [
+        [
+          200,
+          209
+        ],
+        [
+          470,
+          479
+        ]
+      ],
+      [
+        [
+          6,
+          15
+        ],
+        [
+          271,
+          280
+        ]
+      ],
+      [
+        [
+          1,
+          10
+        ],
+        [
+          271,
+          280
+        ]
+      ]
+    ],
+    "definition": "15% contour of equal-weight three-model annual-mean SIC; initial and final decades; both hemispheres.",
+    "missing_data": "All120months per native cell and all3models required; paired-period common support; no zero-fill or partial mean.",
+    "regrid": "8-neighbour spherical IDW power2 on1degree grid, max nearest300km; land excluded for contours, abs(latitude)>=45.",
+    "CAS_cdr_time": "aice labels are interval ends; select by CF time_bnds midpoints, final470-479. File has no CMIP member attributes; use previously supplied project CAS CDR file.",
+    "observations": "NOAA/NSIDC1988-2020 annual-mean SIC, native EPSG3411 north and3412south; reuse validated n12 fields without smoothing.",
+    "panel_f": "No ice edges on difference map; it has no single initial/final SIC state.",
+    "styles": {
+      "initial": "purple dashed",
+      "final": "green dashed",
+      "observed": "magenta solid"
+    },
+    "source_files": [
+      {
+        "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n12_global_temperature_ice_patterns\\global_tas_ice_fields.npz",
+        "sha256": "706baf02cf537df55900afc558685a8b20b1141fb66a2271c2927d3a8eb0b831"
+      },
+      {
+        "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n12_global_temperature_ice_patterns\\observed_north.npz",
+        "sha256": "eabfaf6d4ac44c29d0441b11437d38a3baf08dfa1d1069ae8aea16517a10571d"
+      },
+      {
+        "path": "F:\\sea\\Antic sea ice constraint\\output\\s03_tem\\n12_global_temperature_ice_patterns\\observed_south.npz",
+        "sha256": "ba7ee76cdced1b7965700757b760eeaf683c7b1bf316d617404fdaad502e0329"
+      }
+    ]
+  },
+  "missing_radiation_panels": [],
+  "artist_records": [
+    {
+      "panel": "a",
+      "kind": "individual",
+      "model": "CESM2",
+      "field": "asr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#ad5765",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "c6bcba2c2cd2737f729f725b0ccce98201f0e7f5a9f5ca2b2e8a74003592750a"
+    },
+    {
+      "panel": "a",
+      "kind": "individual",
+      "model": "CESM2",
+      "field": "negative_olr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#de9ca7",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "1a5168752d6d954ef0078863f175f852f0296e5d13766a88b63e010575b7fac0"
+    },
+    {
+      "panel": "a",
+      "kind": "individual",
+      "model": "CNRM-ESM2-1",
+      "field": "asr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#2b1d74",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "d61e7a23a94987e613743ccbfe4eddd51bf7d3c3fd9907ac2fdf354dc6a75cc6"
+    },
+    {
+      "panel": "a",
+      "kind": "individual",
+      "model": "CNRM-ESM2-1",
+      "field": "negative_olr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#7a6fb2",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "c65a8da67a3f883db23c203ea68e699e8418b9aa5d82c608ea6735a4308630f4"
+    },
+    {
+      "panel": "a",
+      "kind": "group_mean_or_contrast",
+      "field": "eei_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "65247471fb9376ccd02b7b55c40d19d41e1a166ec8445ed2d1d06e9be3629532"
+    },
+    {
+      "panel": "a",
+      "kind": "group_mean_or_contrast",
+      "field": "asr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "c4fa5d3e1eb9161978cb191b4037985153462c46ce142986ef8a99f63886861d"
+    },
+    {
+      "panel": "a",
+      "kind": "group_mean_or_contrast",
+      "field": "negative_olr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "e0aaa96f0f8692bc6ca0ef1ab7852c31049ea476fab91479c1cc1d811e3b8210"
+    },
+    {
+      "panel": "b",
+      "kind": "individual",
+      "model": "CAS-ESM2-0",
+      "field": "asr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#98832a",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "c23463c60e53f2914456b13bde4be1aaad05fcd662bcdf8e77590a39a2244dc2"
+    },
+    {
+      "panel": "b",
+      "kind": "individual",
+      "model": "CAS-ESM2-0",
+      "field": "negative_olr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#cebd7a",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "0c6862a347acff24f0b56e2db5cb5a04e8772d872ac43b4ddd73e52a04dbe47e"
+    },
+    {
+      "panel": "b",
+      "kind": "individual",
+      "model": "GFDL-ESM4",
+      "field": "asr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#3a9082",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "f3a7f69b0c96e33ce934824ab6ebadb317cf395a64998a95386f1dacbf2a353e"
+    },
+    {
+      "panel": "b",
+      "kind": "individual",
+      "model": "GFDL-ESM4",
+      "field": "negative_olr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#85c8bd",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "40901f45f6277b268cf7a763c7fe9cb95ef7ac356b34e626578c224cd946854f"
+    },
+    {
+      "panel": "b",
+      "kind": "individual",
+      "model": "NorESM2-LM",
+      "field": "asr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#741d48",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "90236e82a782e13e7c557e11d70de2701eab4ea2f672015adbe903f208f7a57c"
+    },
+    {
+      "panel": "b",
+      "kind": "individual",
+      "model": "NorESM2-LM",
+      "field": "negative_olr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linewidth": 0.8,
+      "alpha": 0.8,
+      "linestyle": "-",
+      "model_color": "#b26f90",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "0e419719c9d5032b8262ccab593e39db5be1c53975f9156b4b0ebf9116c3562e"
+    },
+    {
+      "panel": "b",
+      "kind": "group_mean_or_contrast",
+      "field": "eei_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "f96a05e3024559629284bcb640c08dcf08ccaa91d5184a9cb1457b135bf276e5"
+    },
+    {
+      "panel": "b",
+      "kind": "group_mean_or_contrast",
+      "field": "asr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "68c468b6510988b1f3a0de5cf204089c1fab5851e450e893bf6f2c5683d5baa9"
+    },
+    {
+      "panel": "b",
+      "kind": "group_mean_or_contrast",
+      "field": "negative_olr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "640a568ae38008dd84fd767d9e638b8edd3cf35fcb4772d7369e440bec532d0f"
+    },
+    {
+      "panel": "c",
+      "kind": "group_mean_or_contrast",
+      "field": "eei_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "96be1676f755f2def742b0085139f42cb5b5cc53bf88f8fe0ec934cce36cec91"
+    },
+    {
+      "panel": "c",
+      "kind": "group_mean_or_contrast",
+      "field": "asr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "bba1620d1c98d592418fd002dc869958770b19acf5dd118641fa1397b85357ed"
+    },
+    {
+      "panel": "c",
+      "kind": "group_mean_or_contrast",
+      "field": "negative_olr_relative_control",
+      "first_year": 1,
+      "last_year": 280,
+      "linestyle": "-",
+      "x_sha256": "4e5a6cdee920ac85b865b6c14754a839d88be2c6c66b8eafef58f22e1e1a027c",
+      "y_sha256": "d251756d6f007c70cc483859d844b93a8b9772b8de506e5794c40da98f991cc4"
+    },
+    {
+      "panel": "d",
+      "field_sha256": "2e59568aa15d1bd01206dda90877288f1910a1974ae22dd5ee654eda70de4ec6"
+    },
+    {
+      "panel": "e",
+      "field_sha256": "7bcb3f78a8f71a69e4c9237474b78f20e73516cf05852e8e4fe73d20e360c0e2"
+    },
+    {
+      "panel": "f",
+      "field_sha256": "d80846b2dc62e7470ce38e178394fe616cafe2d64773e25d2727664581b5f262"
+    }
+  ],
+  "CAS_alignment_limitation": "Not an independently validated branch mapping. Forced parent_time_units declares1850 origin while actual control uses0001; CDR branch dates also conflict with actual coordinates. The relative-start mapping is provisional and calendar200-479 plus all550 alternatives are retained.",
+  "caption": "Figure 3. Global radiative and near-surface air-temperature responses. (a, b) piControl-relative net radiation (black), absorbed shortwave contribution (orange), and negative outgoing-longwave contribution (blue) for the non-recovery and recovery groups. Thin solid lines show individual-model shortwave and longwave contributions, using a model-specific hue with darker shades for shortwave and lighter shades for longwave. Thick solid lines show equal-weight group means in (a, b) and their difference in (c), with net, shortwave, and longwave contributions in black, orange, and blue, respectively. Individual-model net radiation is omitted for clarity. (c) Non-recovery minus Recovery group means. Radiation uses two non-recovery models (CESM2 and CNRM-ESM2-1) and three recovery models (CAS-ESM2-0, GFDL-ESM4, and NorESM2-LM). Lines show 11-year centred means computed across the full 280-year sequence; the vertical dotted line marks the forcing reversal. (d, e) Group-mean temperature changes between experiment years 271\u2013280 and 1\u201310, with UKESM1-0-LL also included in the non-recovery temperature group (three models in each group). Cross-hatching marks grid cells where the three model changes do not all have the same sign. (f) Difference between the two group-mean temperature changes (non-recovery minus recovery); cross-hatching marks differences that do not pass a two-sided circular year-block bootstrap test (9,999 resamples; maximum p across block lengths of 2, 3, and 4 years), followed by global Benjamini\u2013Hochberg FDR correction at q < 0.05. The test estimates temporal sampling uncertainty conditional on the six fixed models. Temperature maps use the same colour scale. Stippling marks three-model sign agreement in (d, e) and FDR-significant differences in (f); cross-hatching marks cells failing the respective criterion. Dots are displayed every fourth grid point for clarity. In (d, e), purple and green dashed lines show the initial and final 15% contours of three-model group-mean annual sea-ice concentration in both hemispheres. Magenta solid lines show NOAA/NSIDC observed annual-mean ice edges for 1988\u20132020.",
+  "source_files": [
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n18_five_model_figure3\\metadata.json",
+      "sha256": "d83c42bc19e754ef9d3eb0ca2a90c9977d184aeeafb45029b29eabeff10b054e"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n18_five_model_figure3\\temperature_panels.npz",
+      "sha256": "40a1852d7d9c5132b7099614685b82f1ebe04046f497442cf3d4d98876928411"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n18_five_model_figure3\\group_radiation.csv",
+      "sha256": "160773498aecde13dba793328275ed08251f162cb285e438f2f9333f98455c00"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n18_five_model_figure3\\radiation_contrast.csv",
+      "sha256": "3f9d524bc59e400383ae24178616f21788081c319bdc94230b35ea8310e3ab75"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n18_five_model_figure3\\coastline_global_50m.geojson",
+      "sha256": "46a75f4b5870a71dc157736c58fab865f0022cec79967637ef01292a35fd8fe7"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n18_five_model_figure3\\model_radiation.csv",
+      "sha256": "4151df61a2a61daa8cbed4c245bfd90cb4ac5a4018dc9fa8dac2a3d1959cfe54"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n22_figure3_temperature_significance\\temperature_significance.npz",
+      "sha256": "24dec0f5446c858f3e34e2e8eac757d6334f053f9ff53e58c8cdb4b292bd337d"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n22_figure3_temperature_significance\\metadata.json",
+      "sha256": "e2cdae8592c8150ea1381813d8d2724c29a82065039698f28d65e783fa5df820"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n23_figure3_bipolar_ice_edges\\grouped_bipolar_sic.npz",
+      "sha256": "14db2e74833d8a3418207b450690338dd6a35a0b5e399bb14b41267aed022e2c"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n23_figure3_bipolar_ice_edges\\metadata.json",
+      "sha256": "b448b438bf648445bca49465dad814968e9625c82aa23516e46a44018532f0cd"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n23_figure3_bipolar_ice_edges\\observed_north.npz",
+      "sha256": "eabfaf6d4ac44c29d0441b11437d38a3baf08dfa1d1069ae8aea16517a10571d"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p07_toa_energy_balance\\n23_figure3_bipolar_ice_edges\\observed_south.npz",
+      "sha256": "ba7ee76cdced1b7965700757b760eeaf683c7b1bf316d617404fdaad502e0329"
+    }
+  ]
+}

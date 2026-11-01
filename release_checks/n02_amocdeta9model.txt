@@ -1,0 +1,13 @@
+
+============================================================================================================
+9-MODEL AMOC DEEP-WATER REGION FIGURE COMPLETE
+============================================================================================================
+models = ['ACCESS-ESM1-5', 'CanESM5', 'CESM2', 'CNRM-ESM2-1', 'GFDL-ESM4', 'MIROC-ES2L', 'UKESM1-0-LL', 'NorESM2-LM', 'CAS-ESM2-0']
+display smoothing = 11 years
+common AMOC range = -25.0 ~ 25.0 Sv
+CO2 range = 284.7�C1146.5 ppm
+PNG = F:\sea\Antic sea ice constraint\docs\publication_release_20261101\figure\amoc_s01_n01\n12_deepwater_regions_500m\amoc_deepwater_regions_500m_9models_anomaly.png
+PDF = F:\sea\Antic sea ice constraint\docs\publication_release_20261101\figure\amoc_s01_n01\n12_deepwater_regions_500m\amoc_deepwater_regions_500m_9models_anomaly.pdf
+SVG = F:\sea\Antic sea ice constraint\docs\publication_release_20261101\figure\amoc_s01_n01\n12_deepwater_regions_500m\amoc_deepwater_regions_500m_9models_anomaly.svg
+============================================================================================================
+

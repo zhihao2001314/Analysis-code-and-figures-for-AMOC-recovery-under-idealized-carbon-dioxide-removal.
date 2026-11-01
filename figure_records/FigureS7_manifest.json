@@ -1,0 +1,83 @@
+{
+  "panel_count": 9,
+  "figure_size_inches": [
+    12.6,
+    8.8
+  ],
+  "dpi": 450,
+  "records": [
+    {
+      "variable": "pr",
+      "product": "recovered",
+      "field_sha256": "6bbd247c0d0f062254265115e910cf293ca34177272eb76ca3d750fd00b0f722",
+      "passed_sha256": "d87f38c61bca79b5ecdb0f56f8e10052e16ab3b13c92a759f58715060d39f27c"
+    },
+    {
+      "variable": "evspsbl",
+      "product": "recovered",
+      "field_sha256": "d7f140caff78c0257197a50a69a6028eae7e75b6160bd24be5a9773580ebcc17",
+      "passed_sha256": "285b94e679c3d44087e7cc3e906180f3f1feb0383d755b746f99ce4f78f51082"
+    },
+    {
+      "variable": "pe",
+      "product": "recovered",
+      "field_sha256": "e3efc5b6d73b9c31340d02f088a7cb9a0f82c9775bdea75c04893c9134f5cd80",
+      "passed_sha256": "ae20f8fe5128cb963b08226acf55c4224bb3722536810953d6e9d86f9e925389"
+    },
+    {
+      "variable": "pr",
+      "product": "not_recovered",
+      "field_sha256": "b856ff8cdc22f6bdc19137afa0cb78ec57fe91802f26272ac7ec45986ae509bb",
+      "passed_sha256": "6d3a256dcf0fe20e1bf3ebdac92e073319b1f5709132f604110c06b6ba0e491b"
+    },
+    {
+      "variable": "evspsbl",
+      "product": "not_recovered",
+      "field_sha256": "464a29a5ad9b5af205ac88cd2dbd243de6c489c75de7c6940b1bcc0702c0fda4",
+      "passed_sha256": "59700298541a2e66ac3cc7abb14f42d275097d664d48e2cb8a2fe7eec73c13c6"
+    },
+    {
+      "variable": "pe",
+      "product": "not_recovered",
+      "field_sha256": "eddd1a9b6b3f8a31eee2030a975f55be09055d5d2b85fa6e1057aecb7132f507",
+      "passed_sha256": "27e1fd3098cc1d4bc9b408d1fa9c50ae65dcbf36324cbad8be0b407c45cbc9d6"
+    },
+    {
+      "variable": "pr",
+      "product": "contrast",
+      "field_sha256": "f649bb4928f0cfa93b53e8bd3ac841838b5e6f1529e858dec2459f442dda857e",
+      "passed_sha256": "ab5baeaebcce933091ed8d2185dfe986451e2b8b8b6316c6c53000a4105bcbae"
+    },
+    {
+      "variable": "evspsbl",
+      "product": "contrast",
+      "field_sha256": "b0b43d6e3d02a3688c1bff697e1173523ff792510d5212501f6466811632dd43",
+      "passed_sha256": "70d2d10244741f23f22609d48f2a914777d95d44f8cea384f93f29e9f73546f8"
+    },
+    {
+      "variable": "pe",
+      "product": "contrast",
+      "field_sha256": "68dbf38b47ff9070eef08d40cbc80c2dea5f4703e4978012d2aeba3d7fd7c8a5",
+      "passed_sha256": "42cbcf5ec4482b61f30f9ad237046daf268698395f1754b095294898e37b4d25"
+    }
+  ],
+  "caption": "Annual precipitation, evaporation and net precipitation responses across AMOC recovery groups. Columns show changes in precipitation(P), upward-positive evaporation(E, including sublimation and evapotranspiration), and net precipitation(P−E), in mmday−1. Rows show recovery(GFDL-ESM4, NorESM2-LM, CAS-ESM2-0), non-recovery(CESM2, CNRM-ESM2-1, UKESM1-0-LL), and non-recovery minus recovery. Each group is an equal-weight mean of three models. Changes are experiment years271–280 minus1–10, with CF time-duration weighting and periodic bilinear interpolation to2degrees. Dots indicate unanimous three-model sign agreement in group responses, or group differences passing the centred two-sided circular block bootstrap(9999resamples; largest p over2,3,4year blocks) and fieldwise Benjamini–Hochberg FDR atq<0.05. Cross-hatching indicates failure of the applicable criterion. No significance interpretation of sign agreement as a p-value test is implied.",
+  "source_files": [
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n86_three_by_three_hydrology\\coastline.geojson",
+      "sha256": "fae624174ed9ef4c901ccf44676d7e6776b46d5c894a890d1538a50d5620eb67"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n86_three_by_three_hydrology\\evaporation_bootstrap.nc",
+      "sha256": "f78bad7c240ed83af5d5e7dd43f20d6ca3d037f011b2a1d5bd7718468dd3392a"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n86_three_by_three_hydrology\\hydrology_display.nc",
+      "sha256": "f30fa5123bc2a2ce88446365c080eed8a5fc2de9bbf2f84d54aac8968535ddcc"
+    },
+    {
+      "path": "F:\\sea\\Antic sea ice constraint\\output\\s05_atmosphere\\p05_amoc_recovery_composites\\n86_three_by_three_hydrology\\metadata.json",
+      "sha256": "79452e4d6684e55144900b9f3e2828d0b1f9435716b2fc9951db90797397f4c0"
+    }
+  ]
+}
